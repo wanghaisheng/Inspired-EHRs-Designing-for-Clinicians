@@ -1,6 +1,6 @@
 *   [Foreword](foreword.md)
 *   [About this Book](about-this-book.md)
-*   [Medication List](medication-list.md)
+*   [Medication List](medications-list.md)
 *   [Medication Reconciliation](medication-reconciliation.md)
 *   [Allergy List](allergy-list.md)
 *   [e-Prescribing](e-prescribing.md)
