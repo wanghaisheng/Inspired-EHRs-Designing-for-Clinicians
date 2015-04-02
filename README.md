@@ -1,4 +1,4 @@
-# Inspired-EHRs-Designing-for-Clinicians-
+# Inspired EHRs Designing for Clinicians 
 Chinese and English Version of Book Inspired EHRs: Designing for Clinicians 
 ======
 
@@ -16,6 +16,10 @@ Author:
     Juhan Sonin
 
 © 2014 The Curators of the University of Missouri. All rights reserved.
+
+
+
+The designs in this book were created by our team and reviewed by a national panel of clinical and human factors experts, but have not been empirically tested against existing designs.
 
 Last updated 5 Aug 2014.
 
