@@ -2,7 +2,7 @@
 Chinese and English Version of Book Inspired EHRs: Designing for Clinicians 
 ======
 
-This is a [GitBook](https://www.gitbook.io) version of the Scott Chacon's book: [Inspired EHRs: Designing for Clinicians ](http://inspiredehrs.org/).
+This is a [GitBook](https://www.gitbook.io) version of book: [Inspired EHRs: Designing for Clinicians ](http://inspiredehrs.org/).
 
 
 Author:
