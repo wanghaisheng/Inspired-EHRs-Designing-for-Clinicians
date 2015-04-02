@@ -1,9 +1,7 @@
 ## Acknowledgements
 
-</div></div></div><section class="section" id="acknowledgements-sect"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
-</div>
 
 We are grateful to the many people and organizations that provided support, feedback, and general encouragement for this project.
 

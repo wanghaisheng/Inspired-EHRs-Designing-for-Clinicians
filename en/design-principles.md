@@ -2,18 +2,15 @@
 
 ## Design Principles
 
-<div class="subheader">
 
 Design is a response to specific problem. You are given a problem and then you let the problem itself tell you what your solution is.
 
  - Chipp Kidd
 
-</div></div></div></div><section id="mental-model" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
-* * *
+ * * *
 
 ### 8.1 Mental Models
 
-</div>
 
 **If you don’t know where you are, you can’t get to where you want to go.**
 
@@ -29,12 +26,10 @@ Key ideas:
 *   Designers discover users' mental models through research and craft the proper metaphor that will best fit with how users will be using the product. For example, the desktop metaphor used by modern operating systems represents a very specific and intentional mental model.
 *   Simplicity is the hallmark of a strong mental model. Users should intuitively understand the model they are presented.
 
-</div></div></section><section id="removing-complexity" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
 ### 8.2 Removing Complexity
 
-</div>
 
 **Complexity increases at an exponential rate as a factor of the number of items presented.**
 
@@ -69,7 +64,6 @@ Key ideas:
 *   Use industry standard language when possible. For example, designers know that “leading” is the measurement between two baselines in body copy. To refer to “leading” as “line height” will simply confuse the target audience.
 *   If you use a term in the interface that you can't easily define in one sentence or less, chances are you've misused the term.
 
-</div></div></section><section id="emphasis" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
 ### 8.4 Emphasis

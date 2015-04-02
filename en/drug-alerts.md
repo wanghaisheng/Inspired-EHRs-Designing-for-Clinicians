@@ -2,33 +2,26 @@
 
 ## Drug Alerts
 
-<div class="subheader">
 
 Effective alerts increase patient safety while reducing physicians’ cognitive load
 
-</div></div></div></div><section id="drug-allergy-alerts"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
-</div>
 
 A[report](http://www.ahrq.gov/research/findings/factsheets/errors-safety/aderia/index.html#MedicationErrors) from the Agency for Healthcare Research and Quality estimates that adverse drug events annually result in over 770,000 injuries and deaths and cost up to $5.6 million dollars per hospital. A system that alerts prescribing physicians to medication conflicts can help reduce the number of adverse drug events. To be effective, however, a physician must notice, read, understand, and respond to the alerts. How well they do this depends, in part, on the design of the alerting system, including the alert rules and the methods used to display and interact with the alerts. An effective alerting system needs to strike a balance, alerting physicians to real safety risks without overwhelming them, causing alert fatigue and increasing their cognitive load. If the system gives too many nuisance alarms, or the alarms are hard to read and understand, physicians will quite reasonably begin to ignore the alerts. This chapter will focus on how developers can apply user interface and interaction design principles to create effective alerts. We consider two types of drug-related alerts: drug-allergy alerts and drug-drug interaction alerts.
 
-<div class="sectionStart">
 * * *
 
-</div>
 ### 6.1 Drug Allergy Alerts
 
 Drug allergy alerts inform physicians that their patient may be allergic to whatever they’ve just prescribed. The physician may have accidentally overlooked the allergy. They’ll need to weigh the drug’s potential risks against its potential benefits, and either go forward with the prescription or cancel it. Let’s look at a simple clinical scenario.
 
-<div class="scenario">
 #### Clinical Scenario — Drug Allergy Alert
 
 Mr. Martin is a 60-year-old who, barring one exception, was in good health until a decade ago when he was hospitalized after a severe automobile accident. At that time, he had a documented allergy (generalized hives, itching, and facial swelling) to the IV drug Unasyn, an antibiotic drug combination that contains sulbactam and ampicillin, which is a member of the penicillin family.
 
 Today he is visiting Dr. Barnes, his primary care doctor, with symptoms of acute sinusitis. The problem has been going on for almost two weeks and is not improving. Dr. Barnes’s first choice of treatment is Augmentin (clavulanate plus amoxicillin, which is also a member of the pencillin family). She glances at the allergy list in the patient header, looking for the word “penicillin” but does not see it. The term “Unasyn” did not catch her attention, perhaps because she wasn’t thinking about compounds that contained drugs closely related to penicillin. She enters an e-prescription for Augmentin, but then a drug alert interrupts her workflow. The alert identifies the patient’s allergy to Unasyn, the symptoms and severity, and Unasyn’s chemical similarity to Augmentin. Dr. Barnes reconsiders her decision and chooses doxycycline, a different antibiotic.
 
-</div>
 
 Alerts need to support the physician’s thinking process by addressing five questions:
 
@@ -46,10 +39,8 @@ Alerts need to support the physician’s thinking process by addressing five que
 
 The design shows what information is related by grouping related items together, and using whitespace to separate different groups of items. We eliminated much of the text that appears in the original design ([Figure 6.1](#fig-6-1)) to protect the user from cognitive overload (information overload). Clicking the 'i' (information) icon to the right of the name of the drug the patient is allergic to brings up additional information about the patient’s allergic reaction. This redesigned alert allows the user to find the important information about a drug allergy quickly. If desired, they can then learn more about less vital information, like the specific details of the patient's reaction. The 'feedback' link allows the user to provide feedback to the clinical decision support team.
 
-</div></div></section><section id="alert-fatigue"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
-</div>
 ### 6.2 Drug-Drug Interaction Alerts
 
 Drug interactions are far more complex than drug allergies. A drug allergy either exists or doesn't, though there is some room for doubt about whether an allergy was truly the issue at the time, whether the allergy still persists, and what the nature of the reaction was. With drug interactions, there are more variables: the strength of scientific evidence for the interaction, the severity category for the interaction (usually 3-5 levels from mild to severe), the organizational threshold for displaying alerts based on alert severity, and patient variables (age, weight, pregnancy, and renal function).

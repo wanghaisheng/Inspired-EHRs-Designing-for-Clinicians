@@ -1,7 +1,7 @@
-<section class="section" id="authors"><div class="container"><div class="sixteen columns"><div class="sectionStart">
+## Authors
+
 * * *
 
-</div><div class="author">
 
 **Jeff Belden MD** is a family physician. He is currently a professor of Clinical Family & Community Medicine at the University of Missouri-Columbia School of Medicine, and he is also an affiliated faculty member with the Information Experience Laboratory. His current responsibilities include user training, EHR implementation, collaboration with human-computer interaction researchers from the Information Experience (IE) Lab, and participation in EHR innovation projects at the Tiger Institute, a technology collaborative between the University of Missouri and Cerner Corporation.
 

@@ -2,33 +2,27 @@
 
 ## Medication Reconciliation
 
-<div class="subheader">
 
 Exploit human factors principles to facilitate this difficult but important task.
 
-</div></div></div></div><section id="medication-reconciliation" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
-</div>
 
 Medication reconciliation is the comparison and combining of two or more medication lists. It usually involves a conversation between the patient and a health care professional, and can occur in many different situations. In this chapter, we will explore medication reconciliation scenarios and EHR designs that might be facilitated in inpatient and ambulatory settings. The first section focuses on one example of medication reconciliation in an**inpatient** setting. It describes a functional prototype called “Twinlist” and illustrates how Twinlist could be used when a patient is being discharged from the hospital. The second section focuses on medication reconciliation in the**ambulatory** setting, and focuses on the patient's role in annotating and correcting their EHR medication list at the very beginning of visits.
 
-</div></div></section><section id="inpatient" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
-</div>
 ### 3.1 Inpatient Medication Reconciliation
 
 Consider this inpatient clinical scenario:
 
-<div class="scenario">
 #### Inpatient Clinical Scenario — A Patient with Chest Pain Is Discharged from the Hospital
 
 Mr. Jones is a 74-year-old, married businessman, now retired. He’s being treated for coronary artery disease (he received a stent at age 70), constipation, diabetes, hyperlipidemia, GERD, hypertension, and mild dementia. His primary care physician, Dr. Barnes, sent Mr. Jones to the hospital Monday morning after his wife insisted he go to the clinic because he was having trouble breathing and was rubbing his chest. He had been doing fine until sometime the previous night. His wife said he had seemed quite well Sunday afternoon, when two of their sons came over to watch the game with him. They made it “a little tailgate party, hot dogs with sauerkraut and everything."
 
 Examining Mr. Jones, the hospital physician found moderate pulmonary congestion, but no EKG changes. He tested negative for Troponin. Because of his past medical history and the strong history of Myocardial infarction (MI) in his family, he was admitted and treated. By Wednesday afternoon, Mr. Jones is ready to leave and can be discharged from the hospital. One of the medical house officers is discharging Mr. Jones and as part of this process, reconciling his medications.
 
-</div>
+
 #### 3.1.1 A Prototype for Medication Reconciliation
 
 In this scenario, the physician discharging the patient has to actively compare two lists:

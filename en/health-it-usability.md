@@ -3,16 +3,13 @@
 ## Health Information Technology  
  and Usability
 
-<div class="subheader">
 
 Work smarter, not harder.
 
-</div></div></div></div><section id="usability" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
 ### 9.1 Usability
 
-</div>
 
 In layman’s terms usability refers to how easy or intuitive an interface is to use. Successful designers go beyond this vague notion of “user friendliness” and have a thorough understanding of their user’s community and the tasks they need to accomplish. They also use methodologies validated during[decades of research](http://www.measuringusability.com/blog/usability-history.php) on human computer interaction.
 
@@ -119,10 +116,8 @@ Williams, R. (2003)._The Mac is Not a Typewriter_. San Francisco, CA: Peachpit P
 
 Williams, R. (2008)._The Non-Designer's Design Book_. San Francisco, CA: Peachpit Press.
 
-</div></div></section><div class="chapterEnd"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
-</div></div></div><nav class="footer" role="navigation"><div class="container"><div class="sixteen columns">
 *   [<span class="ch-name">Design Principles</span>](./design-principles.php)[<span class="ch-name">Authors</span>](./authors.php)
 
 </div></div></nav></div></section>

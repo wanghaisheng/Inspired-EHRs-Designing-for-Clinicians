@@ -2,16 +2,13 @@
 
 ## Human Factors Principles
 
-<div class="subheader">
 
 Systems that complement how we see, read, think and decide can improve our performance.
 
-</div></div></div></div><section id="human-factors-engineering" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
 ### What is Human Factors Engineering?
 
-</div>
 
 Human Factors Engineering seeks to improve human performance by designing systems that are compatible with our perceptual, cognitive, and physical abilities. Imagine an EHR that requires a physician to cancel a prescribing task, then navigate through several screens, remember a value, and navigate back to complete the prescription. This EHR taxes the well-known limits of human memory. Over-taxing users’ memory causes them to make errors, especially if they’re interrupted while using the system – a common occurrence in healthcare.
 
@@ -19,12 +16,10 @@ In contrast, an EHR that allows a physician to see at a glance how well a patien
 
 The Fundamental Theorem of Biomedical Informatics states “that a person working in partnership with an information resource is ‘better’ than that same person unassisted.” Human Factors Engineering involves building this partnership, designing hardware and software that make it as easy as possible for users to do tasks safely and efficiently. An EHR based on sound human factors engineering principles can help clinicians focus on the difficult task of caring for patients, rather than on figuring out how to use or work around the EHR. We must understand the ways people see, read, think and decide so that we can use this information to build systems that enhance people's job performance.
 
-</div></div></section><section id="how-people-perceive" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
 ### 7.1 How People Perceive
 
-</div>
 #### 7.1.1 Our Eyes Have Expectations
 
 **Our eyes are drawn to familiar patterns. Sometimes we even see patterns we know and expect instead of what's actually there.**

@@ -2,38 +2,30 @@
 
 ## Allergy List
 
-<div class="subheader">
 
 Streamline data entry and create clear, uncluttered displays to highlight important allergies.
 
-</div></div></div></div><section id="allergy-list" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
-</div>
 
 Medication Allergy Lists (or simply Allergy Lists) currently include a patient’s known medication allergies, but they could include more.
 
 Historically, physicians, nurses, patients, and pharmacists have included patients’ true drug allergies, other adverse drug reactions (also known as side-effects or adverse effects) such as nausea or drowsiness, and allergic reactions in their allergy lists. In this chapter, we will focus on true drug allergies and adverse drug reactions. Physicians often also include patients’ allergies to substances other than medications (such as latex, adhesive tape, peanuts and other foods) in Allergy Lists.
 
-<div class="quicktip" id="other_allergies"><div class="sidebar cf">
 #### Other Kinds of Allergies
 
 Inhalant allergies (such as asthma, hay fever, or allergies to dust and mold) are usually not included in the Allergy List, but rather<span class="elipsis">...<span class="a">Read more</span></span>
 
-<div class="qt-content show">
 
 Inhalant allergies (such as asthma, hay fever, or allergies to dust and mold) are usually not included in the Allergy List, but rather in the Problem List. Very few food allergies could have an effect on prescriptions. A few injectable medications use peanut oil, glucosamine tablets may be derived from shellfish, and patients with egg or soy allergies should not be prescribed propofol.
 
-</div></div></div>
 
 In one way, the Allergy List is the safety net that supports the Medication List. Physicians check the medication list against this list of allergies in order to ensure patient safety. Allergic reactions can range from minor to fatal, so the Allergy List needs to be kept current to prevent these events. Good design can simplify correcting errors in the Allergy List.
 
-</div></div></section><section id="three-tasks" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
 ### 4.1 Three Main Tasks
 
-</div>
 
 Developers might design Allergy Lists keeping in mind a user's three main tasks: glancing, exploring, and changing the list.
 
@@ -45,17 +37,15 @@ Developers might design Allergy Lists keeping in mind a user's three main tasks:
 
 Let's consider the clinical scenarios prompting our three tasks, and some design makeovers that better address the needs of these scenarios and tasks.
 
-</div></div></section><section id="glancing" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 
 ### 4.2 Glancing at the Allergy List
 
-</div><div class="scenario" id="new-script">
+
 #### Clinical Scenario — Considering a New Prescription
 
 A young woman visits Dr. Barnes with what seems to be a simple bladder infection. Dr. Barnes would normally prescribe the antibiotic sulfamethoxazole / trimethoprim (or Bactrim) for this complaint, but a quick glance at the allergy list in the patient's demographic banner reveals that this patient is allergic to sulfa drugs such as Bactrim. Instead, Dr. Barnes prescribes ciprofloxacin, a suitable and equally inexpensive drug.
 
-</div>
 
 Every time they prescribe new medication, doctors will need to quickly refer to the Allergy List and may ask patients if they are allergic to the drugs in question.
 
