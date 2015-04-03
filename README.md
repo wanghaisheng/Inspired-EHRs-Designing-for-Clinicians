@@ -2,7 +2,7 @@
 Chinese and English Version of Book Inspired EHRs: Designing for Clinicians 
 ======
 
-This is a [GitBook](https://www.gitbook.io) version of book: [Inspired EHRs: Designing for Clinicians ](http://inspiredehrs.org/).
+This is a [GitBook](http://wanghaisheng.gitbooks.io/inspired-ehrs-designing-for-clinicians/content/) version of book: [Inspired EHRs: Designing for Clinicians ](http://inspiredehrs.org/).
 
 
 Author:
@@ -24,4 +24,4 @@ The designs in this book were created by our team and reviewed by a national pan
 Last updated 5 Aug 2014.
 
 
-在征得作者同意之后，打算尝试自己翻译一个版本出来，本书一方面从医生的角度阐述了对电子病历系统的需求，另一方面从人机交互的角度思考了如何来设计电子病历系统，同时提供了一些交互式的节目设计供大家参考。
+在征得作者同意之后，打算尝试自己翻译一个版本出来，本书一方面从医生的角度阐述了对电子病历系统的需求，另一方面从人机交互的角度思考了如何来设计电子病历系统，同时提供了一些交互式的界面设计供大家参考。
