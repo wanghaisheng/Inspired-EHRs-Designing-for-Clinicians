@@ -72,8 +72,10 @@ This book’s chapters can be read in any order. Nevertheless, we encourage you 
  We welcome your comments. Please let us know what subjects you would like us to cover next. We will post the helpful examples or insights you send our way to Jeff Belden’s blog at[TooManyClicks.com](http://toomanyclicks.com/).
 
 
-译者注：
-1、user interfaces 用户界面               x
-2、human factor 人因 参考http://baike.baidu.com/link?url=VjqsyS0uD2WtPw9DZ9nDtpPPSsT0cCgf67eF2NTjCETMWuOlPYS6zeCxpc9SWLvyNG2eHWj6pSQvG0jRjfsf9K
+译者注：      
+1、user interfaces 用户界面        
+2、human factor 人因         参考http://baike.baidu.com/link?url=VjqsyS0uD2WtPw9DZ9nDtpPPSsT0cCgf67eF2NTjCETMWuOlPYS6zeCxpc9SWLvyNG2eHWj6pSQvG0jRjfsf9K        
 
-http://baike.baidu.com/link?url=VjqsyS0uD2WtPw9DZ9nDtpPPSsT0cCgf67eF2NTjCETMWuOlPYS6zeCxpc9SWLvyNG2eHWj6pSQvG0jRjfsf9K
+http://baike.baidu.com/link?url=VjqsyS0uD2WtPw9DZ9nDtpPPSsT0cCgf67eF2NTjCETMWuOlPYS6zeCxpc9SWLvyNG2eHWj6pSQvG0jRjfsf9K        
+3、 medication reconciliation 用药核对  赵新远老师译作用药比对 药物比对  这里现没有约定俗成的译法。
+

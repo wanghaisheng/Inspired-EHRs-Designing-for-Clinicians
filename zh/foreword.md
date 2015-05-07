@@ -24,5 +24,5 @@
 Jeff Belden, MD  
 Columbia, MO
 
-译者注：
+译者注：       
 1.Electronic Health Record systems (EHRs) 尽管大多数情况下我们是把EHR译作电子健康档案，但这里的语境来看，还是适合译作EMR，因为在很多时候，老外是把EMR EHR混用的。
