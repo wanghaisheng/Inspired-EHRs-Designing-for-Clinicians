@@ -264,79 +264,153 @@ Here’s the mental task for our physician (see[Figure 2.5](#fig-2-5)):
     *   If one or more of the current medications is not at the maximum dose, consider whether that medication’s dosage could be increased (this may be preferable because it won’t cost the patient a new co-pay, increase their potential drug interactions, or increase the number of pills the patient has to take).
     *   If all the BP meds are at their maximum dose, then the physician must select an additional medication and add it to the treatment plan.
 
+要考虑这些因素是很费脑的，幸运的是，您可以使这项工作变得更简单。
+
 Juggling these considerations can be a lot of mental work. Fortunately, you can make the job much easier.
 
-<div class="example" id="fig-2-5"><div class="ex-title"><span class="ex-type">Figure 2.5</span><span class="ex-caption">The[Cognitive Load](./human-factors.php#cognitive-load)<span class="print-only"> (See Cognitive Load in the Human Factors chapter)</span> on Physicians Adjusting Blood Pressure Medications</span></div>[![Physician has to look at each medication, dose, and condition](./images/UM_EHR_0006_mental-work.png)](./images/UM_EHR_0006_mental-work.png "Figure 2.5 - The cognitive load on physicians adjusting blood pressure medications")</div>
+Figure 2.5 **The [Cognitive Load](http://inspiredehrs.org/designing-for-clinicians/human-factors.php#cognitive-load) on Physicians Adjusting Blood Pressure Medications**
 
-You can reduce the risk of error (missing one medication in the list) and decrease required mental effort ([cognitive load](./human-factors.php#cognitive-load))<span class="print-only"> (See Cognitive Load in the Human Factors chapter)</span> by using smart design features.
+![Physician has to look at each medication, dose, and condition](../images/UM_EHR_0006_mental-work.png)
 
-We have several suggestions for improving medication lists. Follow[Effective Table Design guidelines](https://sbmi.uth.edu/dotAsset/3fc9f186-7608-4b57-9ade-64a90e5916e0.pdf)<span class="print-only"> (http://tinyurl.com/puxl2y3)</span>. For example, make sure table headers remain visible all the time and don’t scroll out of view. The most important columns can be on the left (in this case, drug names). Make sure long names (like those of compound drugs) don’t get truncated without leaving some visual indication that this is what happened, and make sure the entire names are quickly accessible. You can read more about table design at the[SHARP-C website](https://sbmi.uth.edu/nccd/index.htm).
+通过使用一些精妙的设计，你可以减少医疗过失的风险(用药列表中缺失某种药物)，
+降低必要的[认知负荷cognitive load](http://inspiredehrs.org/designing-for-clinicians/human-factors.php#cognitive-load)。
+
+You can reduce the risk of error (missing one medication in the list) and decrease required mental effort ([cognitive load](http://inspiredehrs.org/designing-for-clinicians/human-factors.php#cognitive-load)) by using smart design features.
+
+对于如何改进用药列表，我们有一些建议。遵循[《高效表格设计指南Effective Table Design guidelines》](https://sbmi.uth.edu/dotAsset/3fc9f186-7608-4b57-9ade-64a90e5916e0.pdf)。比如，确保表头总是可见的，不会随查看而滚动
+。最重要的列放在左边(这里也就是药品名称)。确保比较长的名称不会被截断，不会留下发生了什么的视觉迹象
+，确保整个名称能够很快查看得到。可以在[SHARP-C website](https://sbmi.uth.edu/nccd/index.htm)的网站上查看更多表格设计的知识。
+
+We have several suggestions for improving medication lists. Follow[Effective Table Design guidelines](https://sbmi.uth.edu/dotAsset/3fc9f186-7608-4b57-9ade-64a90e5916e0.pdf). For example, make sure table headers remain visible all the time and don’t scroll out of view. The most important columns can be on the left (in this case, drug names). Make sure long names (like those of compound drugs) don’t get truncated without leaving some visual indication that this is what happened, and make sure the entire names are quickly accessible. You can read more about table design at the[SHARP-C website](https://sbmi.uth.edu/nccd/index.htm).
+
+**允许用户依据相关的诊断来对用药进行排序**。人们有限的工作记忆只能保留3到4种
+化合物和复杂条目，比如药物的规格，日常的用法用量。
 
 **Allow users to sort the medication list by associated diagnosis.** Humans’ limited working memory can only hold three to four compound and complex items, like medications with associated strengths and daily dosing instructions, at a given time.
 
-<div class="quicktip"><div class="sidebar cf">
-#### Working Memory
+>#### 工作记忆 Working Memory
 
-Working memory, or short term memory, enables us to recall manageable chunks of information<span class="elipsis">...<span class="a">Read more</span></span>
+>工作记忆，或者说短期记忆，能够让我们在一分钟以内回忆起一些信息片段-说出我们正在写下
+来或键入手机的电话号码。我们不得不关注一些内容，将其放在我们的短期记忆里。
 
-<div class="qt-content show">
+>Working memory, or short term memory, enables us to recall manageable chunks of information —say phone numbers we’re in the process of writing down or punching into our phones —that we need for less than a minute. We have to focus on something to keep it in our short term memory.
 
-Working memory, or short term memory, enables us to recall manageable chunks of information —say phone numbers we’re in the process of writing down or punching into our phones —that we need for less than a minute. We have to focus on something to keep it in our short term memory.
+>要求人们阅读一页纸上的内容并记住它，写在另外一张纸上，能够训练人们的短期记忆。
+在设计交互界面时，要牢记的是，问自己是否能够以让用户关注那些自己工作内容的元素的方式来展现信息。
+而不是关注你的系统。尽量避免用户只从一个页面上获取信息，需要记住这些信息才能在后续页面中使用
 
-Asking people to look at information on one page and then remember it and use it on another page strains their short term memory. When designing interfaces, keep this in mind. Ask yourself if you can present information in a way that will allow users to focus on remembering the elements of their own tasks, rather than on engaging with your system. Try to avoid having the user get information on one page and then needing to remember it in order to use it on another page.
+>Asking people to look at information on one page and then remember it and use it on another page strains their short term memory. When designing interfaces, keep this in mind. Ask yourself if you can present information in a way that will allow users to focus on remembering the elements of their own tasks, rather than on engaging with your system. Try to avoid having the user get information on one page and then needing to remember it in order to use it on another page.
 
-[Read more on Working Memory in the Human Factors chapter.](./human-factors.php#working-memory)
+>[Read more on Working Memory in the Human Factors chapter.](./human-factors.php#working-memory)
 
-</div></div></div>
+
+只有以前的医师或医疗机构输入了引发患者处方的诊断信息的情况下才能够通过诊断
+来排序。目前并不要求医师总是输入这样的信息，由于看不到明显的好处大多数都不会这么做。
+但有了EHR系统，能够高效的按照诊断来排序，一次性为每个药物输入此类信息会节约大量后续的认知工作。
+当医师下达一种新的药物，系统会给出患者目前的诊断或慢病列表。医师可以从
+列表中点选其中一个或多个可以使用的，或者添加一种新的诊断或慢病。这本质上和医师在下达检验检查医嘱时的工作是一模一样的。
+
 
 Sorting by diagnosis is only possible when previous physicians or providers have entered the information about the diagnoses that prompted a patient’s prescriptions. Currently physicians aren’t required to always give this information, and many don't because they don't see an obvious benefit to doing so. However with an EHR that effectively sorts by diagnoses, entering this information once for each medication will prevent a lot of unnecessary mental work in the future. When a physician prescribes a new medication, the system will present a list of the patient's current diagnoses or chronic problems. The physician can merely pick one or more of these from this list as applicable, or add a new diagnosis or chronic problem. This is essentially the same work physicians already have to do when sending out lab and imaging orders.
 
+然而，按照诊断来排序的确给设计人员和开发人员带来了额外的挑战。对与不止一个的诊断相关的用药进行排序
+是设计上的挑战。如何来展示与多个诊断相关的用药呢?在医疗信息交换过程中，
+EHR如何来处理不同厂商的诊断信息本体？一个家庭医生可能会把condition描述成
+"慢性腰背痛"，而整形外科医生则可能把同样的疾病称之为“腰椎病lumbar spondylosis”
+
 Sorting by diagnosis does, however, present designers and developers with additional challenges. Sorting medications that are associated with more than one diagnosis will be a design challenge. How might they represent medications associated with multiple diagnoses? How might an EHR deal with different providers' ontologies for diagnoses in the context of a health information exchange? A family physician might describe a condition as "chronic low back pain," while the orthopedic surgeon might call the same problem "lumbar spondylosis."
 
-<div class="example" id="gal-2-3"><div class="ex-title"><span class="ex-type">Gallery 2.3</span><span class="ex-caption">Easing Mental Work<span class="capt_desc">— How many current medications for hypertension? Which medication was previously used for hypertension?</span></span></div><div id="cbp-fwslider-3" class="scale-with-grid cbp-fwslider">
-*   <div><div class="caption"><span class="ex-type">2.3 a</span> Sorted by Condition</div>[![Interactive table sorted by Condition](./images/UM_EHR_0001_sort-condition.png)](./images/UM_EHR_0001_sort-condition.png "Sorted by Condition")</div>
-*   <div><div class="caption"><span class="ex-type">2.3 b</span> Filtered by Condition</div>[![Interactive table filtered by Condition](./images/Um_Ehr_0002_condition-focus.png)](./images/Um_Ehr_0002_condition-focus.png "Filtered by Condition")</div>
+Gallery 2.3 **Easing Mental Work** — How many current medications for hypertension? Which medication was previously used for hypertension?
 
-</div></div>
+2.3 a **Sorted by Condition**
+
+*  ![Interactive table sorted by Condition](../images/UM_EHR_0001_sort-condition.png)
+
+2.3 b **Filtered by Condition**
+*  ![Interactive table filtered by Condition](../images/Um_Ehr_0002_condition-focus.png)
+
+通过将药品名称与药品的参考信息关联起来，实现通过点击获取**剂量范围信息**。
+药品信息数据库包括了每种适应症或诊断建议的最佳剂量范围。心率衰竭的最大剂量可能比高血压要大一些。
 
 Make**dose range information** available**with a click or a tap** by linking the medication name to reference information about that medication. Drug product information databases include information about the recommended dose range for each indication or diagnosis. The maximum dose might be higher for heart failure than it is for hypertension.
 
+利用**图标或简单的配色方案**，一眼就能看到剂量范围的信息。简单的配色方案也就是说暗灰色表示小剂量，
+深灰色表示更大的剂量，黑灰色表示最大剂量，红色表示超过了建议的最大剂量，这样能很好的满足医生的需要无需点击、无需阅读也无需计算。
+
 Make that same dose range information available at a glance by using an**icon or simple color scheme**. A simple color scheme in which light gray represents a low dose, darker gray a higher dose, solid black a maximum dose, and red a dose over the recommended maximum would reveal relative dosages in a way that elegantly meets physicians’ needs. No clicks, no reading, and no math necessary.
 
-<div class="example"><div class="ex-title" id="fig-2-6"><span class="ex-type">Figure 2.6</span><span class="ex-caption">Shading Displays Information about the Maximum Dose</span></div>[![Shading Displays Information about the Maximum Dose](./images/UM_EHR_0009_lisinopril.png)](./images/UM_EHR_0009_lisinopril.png "Figure 2.6 - Shading Displays Information about the Maximum Dose")</div>
+Figure 2.6 **Shading Displays Information about the Maximum Dose**
+
+![Shading Displays Information about the Maximum Dose](../images/UM_EHR_0009_lisinopril.png)
+
+在任何电子病历的表格中，都可以给每种药品添加如这里所示的小图标来表示最大剂量。
+这种展示方法也能够帮助患者更好的理解他们的用药。通过这样的一些适合于医生、护士和患者的视觉设计
+我们能够让电子病历系统和相应的诊疗过程，对于患者来说更加透明、更加易于理解。
 
 In any standard EHR table view, that maximum dose indicator could be added with a single small icon for each medication, shown here. This display would also help the patient better understand their medication. By creating visual designs like this that work equally well for physicians, nurses, and patients, we can make the EHR and associated care processes more understandable and transparent for patients.
 
-<div class="quicktip" id="max-dose"><div class="sidebar cf">
-#### Challenge: Identifying the "Maximum Dose"
+>#### 挑战：辨别最大剂量
+>#### Challenge: Identifying the "Maximum Dose"
 
-Some medications have different minimum and maximum dose ranges depending on the diagnosis. For example, for lisinopril the<span class="elipsis">...<span class="a">Read more</span></span>
+>一些药品针对不同的诊断会有完全不同的最大和最小剂量范围。比如高血压可以每日服用
+10 到 40 mg的 lisinopril，但心率衰竭的患者可以每日服用5到40mg。
+带状疱疹后搔痒post-herpetic neuralgia的gabapentin的最大剂量为每日3600mg
+。对于gabapentin而言，必须根据肾功能来调整，随着肾功能的下降，最大剂量从1400mg下降到700mg，再到300mg每日。对于dialysis透析的患者，每日的最大剂量就只能是300mg。
+开发团队需要核实药房数据库中最大剂量的数据是结构化的还是文本文字。
+能够标注最大剂量并提供患者特征来按需调整剂量的电子病历系统能够帮助医生做出更加安全的决策。
 
-<div class="qt-content show">
+>Some medications have different minimum and maximum dose ranges depending on the diagnosis they’re prescribed for. For example, 10 to 40 mg of lisinopril can be taken daily for hypertension, but a patient can take 5 to 40 mg daily for heart failure. The maximum dose for gabapentin is 3600 mg daily for partial seizures or neuropathic pain, and 1800 mg daily for post-herpetic neuralgia. For gabapentin, the maximum dose must be adjusted downward for reduced renal function and, as renal function declines, the maximum allowable dose drops from 1400 mg to 700 mg, and then to 300 mg daily. For patients on dialysis, however, the maximum dose of gabapentin is just 300 mg daily. Development teams will need to check with their pharmaceutical database provider to learn if data about maximum doses is available as discrete data rather than textual data. An EHR that signals maximum doses and provides information about patient characteristics that supports dosage adjustments can help physicians make safe decisions.
 
-Some medications have different minimum and maximum dose ranges depending on the diagnosis they’re prescribed for. For example, 10 to 40 mg of lisinopril can be taken daily for hypertension, but a patient can take 5 to 40 mg daily for heart failure. The maximum dose for gabapentin is 3600 mg daily for partial seizures or neuropathic pain, and 1800 mg daily for post-herpetic neuralgia. For gabapentin, the maximum dose must be adjusted downward for reduced renal function and, as renal function declines, the maximum allowable dose drops from 1400 mg to 700 mg, and then to 300 mg daily. For patients on dialysis, however, the maximum dose of gabapentin is just 300 mg daily. Development teams will need to check with their pharmaceutical database provider to learn if data about maximum doses is available as discrete data rather than textual data. An EHR that signals maximum doses and provides information about patient characteristics that supports dosage adjustments can help physicians make safe decisions.
+>针对儿科的剂量，年龄、体重都是影响最大剂量的因素。一些药品的剂量应该依据儿童的体表面积来计算。
+能够在需要的案例中提供此类信息的电子病历系统能够为医务人员提供高效的临床决策支持。
 
-For pediatric dosing, age and weight introduce further variables in maximum dose calculations. Some drug dosages should be based on the surface area of a patient’s body (a function of weight and height). An EHR that provides this information in applicable cases will provide effective clinical decision support to providers.
 
-</div></div></div>
+>For pediatric dosing, age and weight introduce further variables in maximum dose calculations. Some drug dosages should be based on the surface area of a patient’s body (a function of weight and height). An EHR that provides this information in applicable cases will provide effective clinical decision support to providers.
+
+
+下图 ([Figure 2.7](#fig-2-7) and[ 2.8](#fig-2-8))的例子中，我们
+提到了嵌套在表格视图中的用药的时间轴。其中使用了前面介绍过的同样的配色方案
+(暗灰表示小剂量、深灰表示大剂量、红色表示超过了最大剂量)
+
 
 In the examples below ([Figure 2.7](#fig-2-7) and[ 2.8](#fig-2-8)), we refer to the medication timeline (described in detail later in the chapter) embedded in the table view. It uses the same color scheme described earlier (light gray text represents a low dose, darker gray a higher dose, solid black a maximum dose, and red a dose over the recommended maximum).
 
-<div class="example"><div class="ex-title" id="fig-2-7"><span class="ex-type">Figure 2.7</span><span class="ex-caption">List with a Column for the "Maximum Dose" Icon</span></div>[![Medication table with a row of grey and dark squares to denote whether dose is max](./images/UM_EHR_0007_dose-max.png)](./images/UM_EHR_0007_dose-max.png "Figure 2.7 - List with a Column for the 'Maximum Dose' Icon")</div><div class="example"><div class="ex-title" id="fig-2-8"><span class="ex-type">Figure 2.8</span><span class="ex-caption">Mini-Timeline<span class="capt-desc">— Shows maximum dose information for each medication</span></span></div>[![A mini timeline in the medication table can indicate dose information and start/end dates](./images/UM_EHR_0008_timeline.png)](./images/UM_EHR_0008_timeline.png "Figure 2.8 - Mini-timeline shows maximum dose information for each medication")</div>
-#### Try It Out
+Figure 2.7 **List with a Column for the "Maximum Dose" Icon**
+
+![Medication table with a row of grey and dark squares to denote whether dose is max](../images/UM_EHR_0007_dose-max.png)
+
+
+Figure 2.8 **Mini-Timeline** — Shows maximum dose information for each medication
+
+![A mini timeline in the medication table can indicate dose information and start/end dates](../images/UM_EHR_0008_timeline.png)
+
+
+#### 尝试一下Try It Out
+
+我们已经制作了一个交互式的原型，你可以尝试一下。想象一些临床任务(下面我们给出了一些建议)
+在使用的时候和你们现在使用的电子病历系统中的工具与这个原型进行一个比较，
+体会一下我们所做的一些调整在用户体验上的差异。尝试对使用原型完成一项任务和朋友或同事使用现有的电子病历系统完成同样任务进行计时。我们的原型是不是对你来说更加精确？
 
 We’ve made an interactive prototype you might like to try out. Imagine a few clinical tasks (we've listed some suggestions below) and, as you work through them, compare this prototype to the tools in your existing EHR and see the difference our changes make in your user experience. Try timing yourself doing a task on the prototype and a friend or colleague doing the same task in your current EHR. Is one tool more accurate for you?
 
+对于我们的原型，假设今天是2013年9月18日
+
 For this prototype, assume “today” is September 18, 2013.
 
-<div class="example" id="int-2-2"><div class="ex-title"><span class="ex-type">Interactive 2.2</span><span class="ex-caption">Interactive Table Prototype —[Try it out!](../medication-list/)</span></div>[![Interactive Table Prototype](./images/UM_EHR_0000_table.png)](../interactive-table/interactive-table.html "Interactive 2.2 - Interactive Table Prototype")<div class="print-only">
+Interactive 2.2 **Interactive Table Prototype**  —[Try it out!](http://inspiredehrs.org/medication-list/)
 
-Try it out:<a>InspiredEHRs.org/medication-list/</a>
 
-Download the code:<a>github/goinvo/ehr</a>
+![Interactive Table Prototype](../images/UM_EHR_0000_table.png)
 
-</div></div>
-#### Try these tasks:
+
+#### 尝试如下的任务Try these tasks:
+
+1.  患者是否在服用胰岛素insulin?
+2.  患者是否在服用糖尿病相关的药物？有哪些？
+3.  患者是否在服用高血压相关的药物？有哪些？
+4.  我们能否安全地增加任何一种抗血压药物的剂量？如果有的话，是哪个？
+5.  其中Dr. Barnes要负责任的是哪个药物？
+
 
 1.  Is the patient taking insulin?
 2.  Is the patient taking any medication for diabetes? How many?
@@ -344,14 +418,25 @@ Download the code:<a>github/goinvo/ehr</a>
 4.  Could we safely increase the dose on any of those high blood pressure medications? If so, which ones?
 5.  For which medications is Dr. Barnes responsible?
 
-</div></div></section><section id="timeline" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
+
 * * *
 
-### 2.3[The Medication Timeline](../timeline/timeline.html)
+### 2.3 [The Medication Timeline](http://inspiredehrs.org/timeline/timeline.html)
 
-</div>
+在处理拥有多种复杂慢病的患者的时
+候，在管理多个如用药、实验室检查、意外的手术等干预措
+施的时候，在应对多个医疗机构的多次家庭、医院或诊所就诊的时候，
+医生渴望能够有一个时间轴来帮助他们管理这些复杂的数据。要审视所有的数据需要耗费巨大
+的经历。即使是要掌握只有一种用药的患者的病史，医生可能需要翻阅病程记录、
+用药的表格、多年以来的处方续签记录。对于第二种、第三种用药，医生可能不得不重复这样的工作来掌握患者的病史。
+
 
 Physicians working with people who have many complex, chronic conditions (diseases), and managing many interventions, such as medications, laboratory tests, occasional procedures, and many visits with multiple health care providers at home, offices, and hospitals, yearn for a timeline that can help them manage all this complex data. Juggling all that data takes a tremendous amount of mental effort (cognitive load). A physician seeking to understand a patient's history with even a single medication may have to dig through progress notes, medication list tables, and years' worth of prescription renewals. The physician might then have to do the whole thing over again to understand the patient's history with a second or third medication.
+
+用药的时间轴利用信息可视化的技术：
+1.  提供了按时间顺序排列的患者用药史的概述
+2.  能够让医生按需缩放该列表并对列表中的项目进行过滤
+3.  按需展示信息的详细程度
 
 A medication timeline harnesses the power of information visualization to:
 
@@ -359,85 +444,191 @@ A medication timeline harnesses the power of information visualization to:
 2.  Enable physicians to zoom in on and filter the list.
 3.  Reveal details on demand.
 
+概述信息能够背景和观点，也可能让用户有重要发现。(噢，原来六个月前患者的所有药物都发生了变化)
+时间轴可视化能够帮助医生快速理清思路，快速得到一个开始结束的映像，
+而非依赖我们缓慢的思考过程来阅读日期并作出计算。缩放和过滤功能能够有一些
+初步的答案。医生可以深度挖掘更多的详细信息，比如用药变化的精确日期，影响用药事件的相关原因等。
+
+
 The overview provides context and perspective, and may enable the user to make salient discoveries. ("Wow, all this patient's meds were changed six months ago.") The timeline visualization helps harness our fast thinking mind, which can quickly make sense of the start and stop images, rather than relying on our slow thinking mind to read dates and make calculations. Zooming and filtering can provide answers to preliminary questions or hunches. Physicians can drill down to seek more specific details, such as the exact dates of medication changes, or related facts that could influence the medical chain of events.
 
-<div class="scenario">
-#### Returning to the Clinical Scenario — What Happened Before Today?
+>#### 回到临床场景——今天之前到底发生了什么？
 
-Dr. Barnes had determined that Mr. Martin’s blood pressure was too high, and that it would be necessary to prescribe an additional drug. She wondered why lisinopril was not already on this patient’s medication list, since it would normally be among the first three drugs she used for hypertension. So, turning to the medication timeline, she explores the patient’s medication history by toggling from the “Active Medications” view to the “Active & Inactive Medications” view. She sees ([Figure 2.9](#fig-2-9) below) that lisinopril had once been prescribed, but that the patient had only taken it for a few months. She wonders why. Doing a search of the chart, she finds a phone note reporting that the patient developed a persistent dry cough, which had resolved when he stopped taking lisinopril. There was no other record of that adverse effect in the chart, so Dr. Barnes added lisinopril to the allergy list, with “cough” as an “adverse effect.” If her EHR supports the function, she might also write “cough” in the comment field associated with lisinopril under the “reason for stopping” column.
+>#### Returning to the Clinical Scenario — What Happened Before Today?
 
-</div><div class="example" id="fig-2-9"><div class="ex-title"><span class="ex-type">Figure 2.9</span><span class="ex-caption">Show All Medications (Active & Inactive)<span class="capt-desc"> — Lisinopril had been stopped.</span>[Try it out!](../timeline/)</span></div>[![Show All Medications and see what had been stopped](./images/UM_EHR_0007_lisinopril-stopped.png)](./images/UM_EHR_0007_lisinopril-stopped.png "Figure 2.9 - Show All Medications (Active and Inactive) - Lisinopril had been stopped")<div class="print-only">
+>Dr. Barnes认为Mr. Martin的血压过高，需要新增一种控制血压的药物。
+由于lisinopril是她最常用的三种抗血压药物之一，她想知道为什么lisinopril没有出现在患者的用药列表中。于是，查看了用药的时间轴，从患者的"当前用药"切换到“当前和既往用药”视图，
+她注意到 ([Figure 2.9](#fig-2-9) below)以前开过lisinopril，但患者只服用了几个月而已。她想知道原因。在查找了病历之后，她发现
+一份电话记录中写到患者出现长期干咳，但在停用lisinopril之后就好了。在病历中并没有其他相关的不良反应的记录，
+于是Dr. Barnes将lisinopril添加到患者的过敏列表中，注明了不良反应是“咳嗽”。
+如果电子病历系统支持的话，她可以在lisinopril相应的批注栏中写下“咳嗽”是“停止用药的原因”
 
-Try it out:<a>InspiredEHRs.org/timeline/</a>
+>Dr. Barnes had determined that Mr. Martin’s blood pressure was too high, and that it would be necessary to prescribe an additional drug. She wondered why lisinopril was not already on this patient’s medication list, since it would normally be among the first three drugs she used for hypertension. So, turning to the medication timeline, she explores the patient’s medication history by toggling from the “Active Medications” view to the “Active & Inactive Medications” view. She sees ([Figure 2.9](#fig-2-9) below) that lisinopril had once been prescribed, but that the patient had only taken it for a few months. She wonders why. Doing a search of the chart, she finds a phone note reporting that the patient developed a persistent dry cough, which had resolved when he stopped taking lisinopril. There was no other record of that adverse effect in the chart, so Dr. Barnes added lisinopril to the allergy list, with “cough” as an “adverse effect.” If her EHR supports the function, she might also write “cough” in the comment field associated with lisinopril under the “reason for stopping” column.
 
-Download the code:<a>github/goinvo/ehr</a>
+Figure 2.9 **Show All Medications (Active & Inactive)** — Lisinopril had been stopped
+—[Try it out!](http://inspiredehrs.org/timeline/)
 
-</div></div>
+![Show All Medications and see what had been stopped](../images/UM_EHR_0007_lisinopril-stopped.png)
+
+
+现在Dr. Barnes医生考虑使用amlodipine来控制患者的血压，但想了解一下患者对目前正在服用的药物的依从性
+对用药时间轴进行缩放，Dr. Barnes医生发现重新拿Coreg药已经晚了3个礼拜，但耻于承认。患者昨晚上才要求重新配药，打算今天门诊完了之后去药房拿药。
+Coreg相对较高的共同承担费用导致患者不能按时重新配药。考虑到这个原因，医生们讨论一下在in the beta-blocker class中价格相对便宜的替代品
+最终选择了每日200mg的metoprolol XL 。通过阅读[Chapter 3, Medication Reconciliation](./medication-reconciliation.php)你可以了解患者不愿服用处方中的药品的原因。
 
 Dr. Barnes now considers prescribing amlodipine to control the patient’s high blood pressure, but wonders about the patient’s adherence to the medications he’s already on. Zooming in on the medication timeline, she finds that the patient was three weeks late refilling his Coreg, but had been embarrassed to admit to it. The patient had just requested a refill last night and planned to pick it up from the pharmacy after the visit today. Coreg’s relatively high co-pay made the patient hesitant to refill his prescription in a timely manner. With this brought to her attention, the physician discussed less expensive alternatives in the beta-blocker class. Together they selected metoprolol XL 200 mg daily. You can read more about why patients might not be taking their medication as prescribed in[Chapter 3, Medication Reconciliation](./medication-reconciliation.php).
 
-<div class="example" id="fig-2-10"><div class="ex-title">ing<span class="ex-type">Figure 2.10</span><span class="ex-caption">Zoom in to See Granular Details like Gaps in Medication Adherence</span></div>[![Zoom in to See Granular Details like Gaps in Medication Adherence](./images/UM_EHR_0008_zoom-in.png)](./images/UM_EHR_0008_zoom-in.png "Figure 2.10 - Zoom in to See Granular Details like Gaps in Medication Adherence")</div>
+Figure 2.10 **Zoom in to See Granular Details like Gaps in Medication Adherence**
+
+![Zoom in to See Granular Details like Gaps in Medication Adherence](../images/UM_EHR_0008_zoom-in.png)
+
+时间轴给出的是一个完整的概述。在最顶层，时间轴能够传递患者何时开始、停止服用某种药物的详细信息，药物剂量何时变更的信息、
+药物剂量的变更是增加还是减少以及服用的剂量是不是最大剂量。
 
 A timeline offers a complete overview. At the top level, a timeline conveys details about when a patient starts and stops taking a medication, when that medication's dose changes, whether that change is an increase or decrease, and whether the dosage taken is the maximum one.
 
+在[Gallery 2.4](#gal-2-4)中给出的时间轴中，每个条都表示一种药物的用药史（比如起初citalopram的
+剂量是10mg，慢慢的增加到40mg每日）。医生可以调整时间宽度得到更加详细或宽泛的患者用药史的视图。深黑色表
+示的是某种药物的最大剂量，暗灰色表示相对较小的剂量。这种设计能够让用户一眼就获取大量信息。
+
+
 In the straightforward timeline presented in[Gallery 2.4](#gal-2-4), each bar represents the history of a single medication (e.g. citalopram started at 10 mg, and the dosage progressively increased to 40 mg daily). The physician can adjust the timescale to give a wider or narrower view of the patient’s medication history. Solid black represents the maximum dose of that particular medication, with shades of gray representing progressively lower doses (lighter means lower). This design presents the user with a wealth of information at a glance.
+
+好的EHR电子病历系统的设计能够适应大量的用药列表。患有复杂疾病的患者的现用药列表中可能会有15到20种药物。。
+理想情况下处理此类案例的医生无需滚动视图即可查看患者的所有用药信息。
 
 Highly usable EHR designs can accommodate large medication lists. Patients with an array of complex problems can have 15 to 20 medications on their active list, and ideally physicians dealing with challenging cases such as these won't have to scroll to view all of a patient's medications at once.
 
+某种药物(比如西酞普兰citalopram)的所有类型都应该放在同一个时间轴中，即使它们是不同的规格(10mg,20mg
+    或40mg)或者是出现在不同的时间点(比方说，四年前的为期八个月的疗程，过去十二个月的另一个疗程)
+
 All instances of a medication (e.g. citalopram) will occur in the same timeline, even if they involve different tablet strengths (10 mg, 20 mg, or 40 mg) or occur at distinct points in time (say, an eight month course four years ago, and another course for the past twelve months).
 
-<div class="example" id="gal-2-4"><div class="ex-title"><span class="ex-type">Gallery 2.4</span><span class="ex-caption">Medication Timeline</span></div><div id="cbp-fwslider-4" class="scale-with-grid cbp-fwslider">
-*   <div><div class="caption"><span class="ex-type">2.4 a</span> Medication Timeline Showing Drug Dosages for "Today"</div>[![Medication Timeline Showing Drug Dosages for Today](./images/UM_EHR_0000_Annotated-Timeline.png)](./images/UM_EHR_0000_Annotated-Timeline.png "Gallery 2.4 a - Medication Timeline Showing Drug Dosages for 'Today'")</div>
-*   <div><div class="caption"><span class="ex-type">2.4 b</span> How to Read the Timeline</div>[![How to Read the Timeline](./images/UM_EHR_0010_notated.png)](./images/UM_EHR_0010_notated.png "Gallery 2.4 b - How to Read the Timeline")</div>
-*   <div><div class="caption"><span class="ex-type">2.4 c</span> Special Cases<span class="capt-desc">— PRN (as needed) medications and medications with no fixed maximum dose</span></div>[![PRN medications have no fixed maximum dose](./images/UM_EHR_0011_notated-2.png)](./images/UM_EHR_0011_notated-2.png "Gallery 2.4 c - Special Cases - PRN (as needed) medications and medications with no fixed maximum dose")</div>
+Gallery 2.4 **Medication Timeline**
 
-</div></div>
+*   2.4 a **Medication Timeline Showing Drug Dosages for "Today"**
 
-The medication timeline we illustrate incorporates some innovative interface usability features predicated on cognitive science. The efficient “high-level overview” shows the timeline for a patient’s complete list of medications in a single view. This tool will eliminate the need for the user to try and hold all these disparate pieces of information in her working memory, or to make written notes just to keep track of the details scattered across several EHR views. A physician looking at this visualization will pick up on[preattentive attributes](./human-factors.php#preattentive-attributes)<span class="print-only"> (See Prattentive Attributes in the Human Factors chapter)</span> such as color, length, and[proximity](./human-factors.php#proximity)<span class="print-only">(See Proximity in the Human Factors chapter)</span>, and will be able to discern patterns in these far more easily than she might see them in text or numerical data.
+![Medication Timeline Showing Drug Dosages for Today](../images/UM_EHR_0000_Annotated-Timeline.png)
+
+*   2.4 b **How to Read the Timeline**
+
+![How to Read the Timeline](../images/UM_EHR_0010_notated.png)
+
+*  2.4 c **Special Cases<span class="capt-desc">— PRN (as needed) medications and medications with no fixed maximum dose**
+
+![PRN medications have no fixed maximum dose](../images/UM_EHR_0011_notated-2.png)
+
+我们所说明的用药时间轴其中包含了一些基于认知科学的创新的界面可用性的特征。高效的“高级概述”在单个视图中展示了
+患者完整的用药列表的时间轴。这个工具避免了医生在工作记忆中尝试并记住所有碎片化信息，或者是在多个视图间切换时为了记住细节而做笔记。
+医生在查看此类可视化视图时会注意到[preattentive attributes](http://inspiredehrs.org/designing-for-clinicians/human-factors.php#preattentive-attributes)如颜色、长度和[proximity](http://inspiredehrs.org/designing-for-clinicians/human-factors.php#proximity),能够比纯文本或数字形式的数据更加容易的识别出这些不同的模式。
+
+The medication timeline we illustrate incorporates some innovative interface usability features predicated on cognitive science. The efficient “high-level overview” shows the timeline for a patient’s complete list of medications in a single view. This tool will eliminate the need for the user to try and hold all these disparate pieces of information in her working memory, or to make written notes just to keep track of the details scattered across several EHR views. A physician looking at this visualization will pick up on[preattentive attributes](http://inspiredehrs.org/designing-for-clinicians/human-factors.php#preattentive-attributes)such as color, length, and[proximity](http://inspiredehrs.org/designing-for-clinicians/human-factors.php#proximity), and will be able to discern patterns in these far more easily than she might see them in text or numerical data.
+
+我们的医生也可以对感兴趣的区域进行缩放来了解更多的细节。EHR电子病历系统能够提供解释、剂量信息、甚至于
+能拿到药房的重复拿药数据或患者自发填写依从性数据情况下的依从性信息。这些将进一步帮助医生确认自己的预感，形成新的问题。
 
 Our physician will also be able to zoom in on areas of interest and explore them in more detail. The EHR can provide her with explanations, dose details, and even adherence information if pharmacy refill data or patient-reported adherence data is available. This will further assist our physician to confirm hunches and develop new questions to pursue.
 
+EHR电子病历系统也能够展示曾经下达给患者的任意的episodic medications药物，如疼痛、恶心和哮喘发作的PRN药物。
+在[Gallery 2.5](#gal-2-5)中，这些是使用白色的条来表示的。EHR电子病历系统通过额外的视觉提示来表示患者曾经使用过此类药物
+。EHR电子病历系统可能使用点或正方形来表示药房配药的事件，使用很小的垂直#(hash)标记来表示患者自发填报的用药。
+
 The EHR can also display any episodic medications a patient has been prescribed, such as PRN medications for pain, nausea, asthma exacerbations, etc. In[Gallery 2.5](#gal-2-5), these are represented by a white bar. The EHR will display that a patient has used these medications by means of additional visual cues. An EHR might indicate pharmacy dispense events with a square or dot, and patient reports of medication use with a small vertical hash mark.
+
+EHR电子病历系统能够按需只显示现用药或已停止用药，或者两者都显示。这能够帮助回答医生在调查之时发现的一些问题(为什么去年12月份停用这种药物
+    转而使用另外一种药物)。
 
 EHR filtering can be capable of showing only active medications, discontinued medications, or both, as needed. This will help physicians answer other questions that arise during their inquiries (“Why was this medication stopped last December, and what made the patient switch to this alternative medication?”).
 
+在时间轴中，我们使用单色来传达大多数信息。拥有特殊配色方案的EHR电子病历系统可以调整我们的配色方案，使用深蓝色或深绿色来
+来表示最大数量。我们很少使用颜色来提醒医生诸如超过推荐最大剂量等要点。一般而言，采用单色是一种比较好的设计。
+你可以保守的使用颜色，以不会干扰用户的方式来传达信息。要记住的是一些用户无法识别颜色。在我们的例子中，
+由于无法识别颜色是很常见的残疾，在需要表示最大剂量的时候，我们同时使用了颜色和交叉阴影，
+正是为了确保大家都能注意到这些重要的信息。用单色来打印你的设计来确保你所设计的最大剂量的获取以及理应传达的所有信息仍然是可见的。
+
+
 For the timeline, we used monochrome (grayscale) to convey most information. EHRs with specific color schemes could adapt our black scheme for conveying a maximum number to a “darkest blue” or “darkest green”. We used color sparingly, to alert physicians to issues such as dosages over the recommended maximum dose. In general, it’s a good idea to design in monochrome first. You can then add color sparingly to convey meaning in a way that won’t distract the user. Remember that some users will not perceive color. In our example, we combined color and cross hatching when we needed to indicate a maximum dose to make sure that no one missed crucial information due to this quite common disability. You can make sure you’ve designed for maximum accessibility by printing your design in grayscale and checking that all the information it is supposed to convey is still visible.
+
+首先，文字必须清晰易辨认。在我们的时间轴中，药品名称是左对齐的，这样更容易阅读。剂量要么是黑色要么是白色，与背景色都形成了
+鲜明的对比。有经验的用户能够手动缩放时间轴至合适的程度，但即使是新手也能够使用按钮来缩放至常用的、恰当的时间区间(比如过去的三个月或过去的一年)。
 
 Above all, the text must be legible. On our timeline, the drug names are left-justified, which makes them easier to read. The dose, displayed in either black or white, contrasts with the background. Experienced, dexterous users can comfortably manually zoom in on our timeline, but even absolute beginners can use the buttons that allow them to quickly zoom in on commonly-used, useful time periods (such as “the last three months” or “the last year”).
 
+我们的时间轴旨在适应每一个潜在的用户：医生、护士、患者、护理人员、药房人员、精神卫生从业人员、健康保健的教练以及所有其他医疗从业人员。时间轴也能够适应较长的用药列表。
+十多种药品是很常见的情况。20种药品也不稀奇。30种药品可能就比较少见了。用药的时间轴能够减轻视觉负担，
+它是一个数据可视化的工具，它的妙处在于首先是概述，然后是缩放和过滤，然后是按需查看详细信息。
+
 Our medication timeline aims to accommodate every conceivable user: physicians, nurses, patients, caregivers, pharmacists, mental health professionals, health coaches, and all other medical specialists. It can accommodate long lists of medications. A dozen medications can be quite common. Twenty medications would not be surprising. Thirty medications, sadly, may not be rare. The medication timeline handles the visual burden with ease. It’s a tool for data visualization, whose mantra is “overview first, then zoom and filter, then details-on-demand.” Let’s look at[Gallery 2.5](#gal-2-5) to demonstrate how.
 
-<div class="example" id="gal-2-5"><div class="ex-title"><span class="ex-type">Gallery 2.5</span><span class="ex-caption">Medication Timeline</span></div><div id="cbp-fwslider-5" class="scale-with-grid cbp-fwslider">
-*   <div><div class="caption"><span class="ex-type">2.5 a</span> Instructions on How to Read the Timeline</div>[![Instructions on how to read the timeline](./images/UM_EHR_0001_tutorial.png)](./images/UM_EHR_0001_tutorial.png "Gallery 2.5 a - Instructions on how to read the timeline")</div>
-*   <div><div class="caption"><span class="ex-type">2.5 b</span> Active Medications in the Timeline</div>[![Active Medications in the Timeline](./images/UM_EHR_0000_Annotated-Timeline.png)](./images/UM_EHR_0000_Annotated-Timeline.png "Gallery 2.5 b - Active Medications in the Timeline")</div>
-*   <div><div class="caption"><span class="ex-type">2.5 c</span> Grab the Scrubber<span class="capt-desc">— Drag it across the timeline to look at more details about certain dates.</span></div>[![Drag scrubber to look at more details about certain dates](./images/UM_EHR_0002_drag.png)](./images/UM_EHR_0002_drag.png "Gallery 2.5 c - Grab the Scrubber - Drag it across the timeline to look at more details about certain dates")</div>
-*   <div><div class="caption"><span class="ex-type">2.5 d</span> Dragging the Scrubber Further Back in Time<span class="capt-desc">— Medications not yet prescribed appear as grayed out names, and the labels disappear.</span></div>[![Drag Scrubber Back in time. Medications not yet prescribed grayed out names and labels disappear](./images/UM_EHR_0003_drag2.png)](./images/UM_EHR_0003_drag2.png "Gallery 2.5 d - Dragging the Scrubber Further Back in Time - Medications not yet prescribed appear as grayed out names, and the labels disappear")</div>
-*   <div><div class="caption"><span class="ex-type">2.5 e</span> Show All Medications<span class="capt-desc">— Active medications are at the top, inactive medications are at the bottom.</span></div>[![Active medications are at the top, inactive medications are at the bottom](./images/UM_EHR_0004_show-all.png)](./images/UM_EHR_0004_show-all.png "Gallery 2.5 e - Show All Medications - Active medications are at the top, inactive medications are at the bottom")</div>
-*   <div><div class="caption"><span class="ex-type">2.5 f</span> Tap on a Medication Line to See More Details</div>[![Tap on a Medication Line to See More Details](./images/UM_EHR_0005_hover.png)](./images/UM_EHR_0005_hover.png "Gallery 2.5 f - Tap on a Medication Line to See More Details")</div>
-*   <div><div class="caption"><span class="ex-type">2.5 g</span>Expanding a Bar Reveals Details that Influenced a Patient’s History with a Medication<span class="capt-desc">— Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table.</span></div>[![Click to expand a bar](./images/UM_EHR_0013_tap1.png)](./images/UM_EHR_0013_tap1.png "Expand a Bar to Reveal Details on a Patient’s History with a Medication")</div>
-*   <div><div class="caption"><span class="ex-type">2.5 h</span>Back to Where We Started</div>[![Active medications in the timeline](./images/UM_EHR_0000_Annotated-Timeline.png)](./images/UM_EHR_0000_Annotated-Timeline.png "Gallery 2.5 h - Back to Where We Started - Active medications in the timeline")</div>
+Gallery 2.5 **Medication Timeline**
 
-</div></div>
+*   2.5 a **Instructions on How to Read the Timeline**
+
+![Instructions on how to read the timeline](../images/UM_EHR_0001_tutorial.png)
+
+*   2.5 b **Active Medications in the Timeline**
+
+![Active Medications in the Timeline](../images/UM_EHR_0000_Annotated-Timeline.png)
+
+*   2.5 c **Grab the Scrubber**— Drag it across the timeline to look at more details about certain dates
+![Drag scrubber to look at more details about certain dates](../images/UM_EHR_0002_drag.png)
+
+*   2.5 d **Dragging the Scrubber Further Back in Time**— Medications not yet prescribed appear as grayed out names, and the labels disappear.
+
+![Drag Scrubber Back in time. Medications not yet prescribed grayed out names and labels disappear](../images/UM_EHR_0003_drag2.png)
+
+*   2.5 e **Show All Medications**— Active medications are at the top, inactive medications are at the bottom.
+
+![Active medications are at the top, inactive medications are at the bottom](../images/UM_EHR_0004_show-all.png)
+
+*   2.5 f **Tap on a Medication Line to See More Details**
+![Tap on a Medication Line to See More Details](../images/UM_EHR_0005_hover.png)
+
+*   2.5 g **Expanding a Bar Reveals Details that Influenced a Patient’s History with a Medication**— Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table.
+
+![Click to expand a bar](../images/UM_EHR_0013_tap1.png)
+
+*   2.5 h **Back to Where We Started**
+![Active medications in the timeline](../images/UM_EHR_0000_Annotated-Timeline.png)
+
+浏览下面的演示视频来了解时间轴的操作。
 
 See the Timeline in action in this short demo video.
 
-<div class="example" id="vid-2-1"><div class="ex-title"><span class="ex-type">Video 2.1</span><span class="ex-caption">[Watch the Demo Video of the Timeline Prototype](http://vimeo.com/99496442)<span class="capt_desc">(4:29)</span></span></div></div>
+[Watch the Demo Video of the Timeline Prototype](http://vimeo.com/99496442)
+
 #### Try It Out
+
+我们已经制作了一个交互式的原型，你可以尝试一下。想象一些临床任务(下面我们给出了一些建议)
+在使用的时候和你们现在使用的电子病历系统中的工具与这个原型进行一个比较，
+体会一下我们所做的一些调整在用户体验上的差异。尝试对使用原型完成一项任务和朋友或同事
+使用现有的电子病历系统完成同样任务进行计时。我们的原型是不是对你来说更加精确？
+
 
 We’ve made an interactive prototype timeline you might like to try out. Imagine a few clinical tasks (we've listed some suggestions below) and, as you work through them, compare this prototype to the tools in your existing EHR and see the difference our changes make in your user experience. Try timing yourself doing a task on the prototype and a friend or colleague doing the same task in your current EHR. Is one tool more accurate for you?
 
+要注意的是目前还仅仅是个原型，有很多不足的地方，后续的版本希望能够改进它(比如改进缩放功能，时间轴的标签，自定义颜色，
+    能够获取更改原因的记录或者详细信息，过滤器高等)
+
 Note that this is an early prototype with known limitations we hope to address in future versions of the book (e.g. improved zooming, better labels for the time axis, customizable use of color, access to notes and details about reason for changes, filters, etc.)
+
+对于我们的原型，假设今天是2013年9月18日
 
 For this prototype, assume "today" is September 18, 2013.
 
-<div class="example" id="int-2-3"><div class="ex-title"><span class="ex-type">Interactive 2.3</span><span class="ex-caption">Medication Timeline Prototype[Try it out!](../timeline/)</span></div>[![Try our medication timeline prototype](./images/UM_EHR_0000_Annotated-Timeline.png)](./images/UM_EHR_0000_Annotated-Timeline.png "Interactive 2.3 - Try Our Medication Timeline Prototype")<div class="print-only">
+Interactive 2.3 Medication Timeline Prototype[Try it out!](http://inspiredehrs.org/timeline/)
 
-Try it out:<a>InspiredEHRs.org/timeline/</a>
+![Try our medication timeline prototype](../images/UM_EHR_0000_Annotated-Timeline.png)
 
-Download the code:<a>github/goinvo/ehr</a>
+#### 尝试如下任务Try These Tasks
 
-</div></div>
-#### Try These Tasks
+1.  操作直到你可以在时间轴底部看到起止日期2013年9月18号(我们把当前日期设定为2013年9月18号，这样就有一年的操作空间).
+2.  患者最近开始服用的是什么药物？何时开始服用该种药物？
+3.  患者最近停用的是哪种药物？
+4.  拖动底部的scrubber直到看到5年期的时间轴
+5.  患者原来停止服用，现在又开始服用的是哪种药物?
+6.  Try dragging the list of medication names on the right side of the frame towards the left. Notice that some names disappear. Only the drugs and the dosages the patient was taking at the point in time you’ve moved the scrubber to will show up on the list.
+
 
 1.  Navigate so that you can see the starting date, September 18, 2013, by dragging the gray shaded area (the scrubber) in the bottom timeline. (We set a current date of September 18th so our prototype will work both now and for years to come).
 2.  What medication did the patient start taking most recently? About when did he start taking it?
@@ -446,51 +637,48 @@ Download the code:<a>github/goinvo/ehr</a>
 5.  Which drugs did the patient stop taking, and then start taking again?
 6.  Try dragging the list of medication names on the right side of the frame towards the left. Notice that some names disappear. Only the drugs and the dosages the patient was taking at the point in time you’ve moved the scrubber to will show up on the list.
 
-#### Future Directions for Medication Timeline
+#### 用药时间轴未来的发展方向 Future Directions for Medication Timeline
 
+我们的时间轴目前还不能解决所有的问题。
 Our timeline doesn’t yet provide all the answers. We haven’t attempted to address the data needs of complex regimens like chemotherapy, or the variables involved in pediatric dosing. Other clinical tasks really demand a historical view that integrates other clinical data. For example, warfarin anticoagulation management requires details about prior warfarin dose changes, other medication changes, and prothrombin time (also known as protime, or PT or INR) lab results. Insulin management requires physicians to be able to simultaneously view recent blood glucose results, hemoglobin A1c results, diet and activity details, and sometimes other details about exceptions to the patient’s usual condition or activities.
 
 A graphical display of laboratory values to accompany the timeline may help physicians even more. An ideal timeline for cases such as these would allow physicians to see what medication changes, if any, preceded a rise in laboratory markers of liver injury, or how a blood pressure medication affected electrolytes and kidney function. This type of display could enhance patients’ safety and quality of care by presenting information in a way that makes currently obscure patterns and phenomena crystal clear for the user.
 
-<div class="quicktip" id="medication-list-tasks"><div class="sidebar cf">
-#### Different Medication List Designs Address Different Users’ Tasks
+>#### Different Medication List Designs Address Different Users’ Tasks
 
-<span class="a">Read more</span>
 
-<div class="qt-content show">
+>**For Prescribers**
 
-**For Prescribers**
-
-<table class="sidebar-table" id="prescribers"><thead><tr><th>User Tasks</th><th colspan="3">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th><th>Medication Timeline</th></tr></thead><tbody><tr><td>**Scan the list quickly**</td><td>●</td></tr><tr><td>**Manage treatment decisions**  
+><table class="sidebar-table" id="prescribers"><thead><tr><th>User Tasks</th><th colspan="3">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th><th>Medication Timeline</th></tr></thead><tbody><tr><td>**Scan the list quickly**</td><td>●</td></tr><tr><td>**Manage treatment decisions**  
 <span>(Big picture overview to guide decisions)</span></td><td>●</td><td>●</td></tr><tr><td>**Renew medications**  
 <span>(For when to renew and for making adjustments)</span></td><td>●</td></tr><tr><td>**Perform medication reconciliation**  
 <span>(Comparing two or more lists at transitions of care)</span></td><td>●  
 <span>but see later chapter</span></td></tr><tr><td>**Review time course**</td><td>●</td></tr><tr><td>**Manage temporary changes**
 
-Brief courses (steroid bursts or intermittent treatment such as chemotherapy)
+>Brief courses (steroid bursts or intermittent treatment such as chemotherapy)
 
-**Adjustments around procedures** (adjustments & temporary medications needed around the time of surgery)
+>**Adjustments around procedures** (adjustments & temporary medications needed around the time of surgery)
 
-</td><td>●  
+></td><td>●  
 <span>If sort by "expected stop date"</span></td></tr><tr><td>**Recall tried & failed medication courses**  
 <span>(What was effective, what wasn't, and why?)</span></td><td>●  
 <span>But only if the details are recorded by the users</span></td></tr><tr><td>**Assess adherence**  
 <span>(Are refills on time? Are doses taken as planned?)</span></td><td>●  
 <span>Depends on additional data, such as dispense data or patient reporting</span></td></tr></tbody></table>
-#### For Patients
+>#### For Patients
 
-<table class="sidebar-table" id="patients"><thead><tr><th>User Tasks</th><th colspan="2">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th></tr></thead><tbody><tr><td>**Scan or remember the list**</td><td>●</td></tr><tr><td>**Share the list with others**</td><td>●</td></tr><tr><td>**Restock the[pill organizer](http://en.wikipedia.org/wiki/Pill_organizer)**  
+><table class="sidebar-table" id="patients"><thead><tr><th>User Tasks</th><th colspan="2">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th></tr></thead><tbody><tr><td>**Scan or remember the list**</td><td>●</td></tr><tr><td>**Share the list with others**</td><td>●</td></tr><tr><td>**Restock the[pill organizer](http://en.wikipedia.org/wiki/Pill_organizer)**  
 <span>(Shows which pills go in which slots of those little weekly boxes)</span></td><td>●  
 <span>barely</span></td></tr><tr><td>**Remember daily doses**  
 <span>(Reminds users about daily and less frequent doses and "less than daily" doses. Enables users to check items off the list when they’ve taken them)</span></td><td>●</td><td>●</td></tr><tr><td>**Remember pharmacy refills**  
 <span>(Helps users coordinate trips to the pharmacy and ask their doctors for renewals)</span></td><td>●  
 <span>Would need data from pharmacy, or from bottle</span></td></tr><tr><td>**Update list at end of doctor visit**  
 <span>(Creates a final list that takes into account all the changes to the medication list that have been made during a given clinical encounter)</span></td><td>●</td></tr></tbody></table></div></div></div></div></div></section><section id="summary" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
+
 * * *
 
-### 2.4 Summary
+### 2.4 总结Summary
 
-</div>
 1.  When designing EHR tools, consider the user and the task they’ll be performing. This will help you decide what functions and details a physician needs when using a particular medication list view.
 2.  Use[preattentive attributes](./human-factors.php#preattentive-attributes)<span class="print-only"> (See Preattentive Attribute in the Human Factors chapter)</span> (like color, size, shape and alignment) to draw the user’s attention to the salient details.
 3.  Design in monochrome first, then add color sparingly and meaningfully where it can add information without distracting the user.
@@ -512,4 +700,10 @@ Brief courses (steroid bursts or intermittent treatment such as chemotherapy)
 8、preattentive attributes
 9、workhorse 标配
 10、medication renewal
-11、co-pay
+11、co-pay——
+比如保险中规定医疗费用达到1000以上，多出的部分保险公司才报销，1000以下自理，这个1000就是deductible
+比如总共花了3000，那多出的2000，根据不同的医疗服务项目，有的是受保人要固定支出的共同费用（比如10元，100元），这种固定的共同费用就是Copay/Copayment
+有的是受保人按照一定比率自己支付的费用（比如10%，20%），这种按照比率收取的费用就是Coinsurance。是不是这样？
+12、prescription renewal
+13、in the beta-blocker class
+14、cross hatching 交叉阴影
