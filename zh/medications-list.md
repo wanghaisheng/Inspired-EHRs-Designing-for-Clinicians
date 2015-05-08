@@ -40,29 +40,28 @@ The simple list displays bare-bones basic information. It’s made to be read qu
 
 We use the term “patient” to apply to either patients themselves, caregivers, or family members acting on their behalf. Similarly, we use the term “physician” to apply to physicians proper or other healthcare professionals with prescribing authority.
 
->
-#### 常见场景——门诊诊查
+>#### 常见场景——门诊诊查
 
-内科医生Dr.Barnes正准备走进检查室查看她的病人Mr. Martin马丁先生，马丁先生60岁，6患有10种慢性病(糖尿病、高血压、高胆固醇、膝关节炎、抑郁症、失眠等等)，服用着17种药物。医生注意到患者的血压偏高十个点，打算询问患者是否在家里测量过自己的血以及测量的结果。
+>内科医生Dr.Barnes正准备走进检查室查看她的病人Mr. Martin马丁先生，马丁先生60岁，6患有10种慢性病(糖尿病、高血压、高胆固醇、膝关节炎、抑郁症、失眠等等)，服用着17种药物。医生注意到患者的血压偏高十个点，打算询问患者是否在家里测量过自己的血以及测量的结果。
 
-Dr. Barnes, a general internist is about to go into the exam room to see her patient Mr. Martin, a 60-year-old man with ten chronic diseases (diabetes, high blood pressure, high cholesterol, knee arthritis, depression, insomnia, etc.) who is taking seventeen medications. The physician notes that the patient’s blood pressure is about ten points too high. She plans to ask the patient if he has been taking his blood pressure at home and what the results of any such tests have been.
+>Dr. Barnes, a general internist is about to go into the exam room to see her patient Mr. Martin, a 60-year-old man with ten chronic diseases (diabetes, high blood pressure, high cholesterol, knee arthritis, depression, insomnia, etc.) who is taking seventeen medications. The physician notes that the patient’s blood pressure is about ten points too high. She plans to ask the patient if he has been taking his blood pressure at home and what the results of any such tests have been.
 
 在这个场景中，在面对面的诊查开始之前，医生需要对患者所有的用药情况、慢性病病情、最近的生命体征指标和相应的实验室检验结果等了然于胸，(病人有没有在服用胰岛素？有没有吃任何的高风险药物如华法林？)。有了这些基础信息之后，医生才能够把注意力都放在病人讲述自己的病情，不用在病人和电子病历系统屏幕间来回切换以提醒他患者的用药信息。把全部注意力都放在病人身上,向病人展示了医生是在用心倾听，而且是关心病人所说的话。建立语境能够让医生专心在这次就诊的实用性和情感基调上，将这次就诊与全局联系起来，其中包括了患者既往和当前数据以及患者对病情的讲述。
 
 In this scenario, the physician needs to have an overall awareness of the patient’s medications, chronic problems, latest vital signs, and relevant lab test results fresh in her mind when the face-to-face visit begins. (“Is he taking insulin? Is he on any high-risk drugs like warfarin?”) Armed with this background, the physician is able to give her full attention to the patient telling his story, and she won’t have to keep glancing away from him and back at the EHR to be reminded of the medications. Giving full attention to his story shows the patient that she’s listening to and cares about what he has to say. Establishing context will allow our physician to attend to the practicalities and the emotional tone of this encounter, and to frame this visit in relation to a bigger picture that includes the patient's past and current data, his story.
 
-#### 情境意识、态势感知Situational Awareness
+>#### 情境意识、态势感知Situational Awareness
 
-态势感知也就是说拥有做出高效决策的所有背景知识的同时，了解当前你身边所发生的一切，预见未来会发生的。在门诊过程中管理慢病的医生而言，态势感知包括了
+>态势感知也就是说拥有做出高效决策的所有背景知识的同时，了解当前你身边所发生的一切，预见未来会发生的。在门诊过程中管理慢病的医生而言，态势感知包括了
 在患者走进诊室之前，获取全面的有关患者的关键信息。在患者进入诊室之后，医师就能够把注意力集中在患者身上，并根据眼前的患者进行调整，进行交谈。
 
-Situational awareness is having all the background information you need to make effective decisions while simultaneously being aware of what is currently happening around you and anticipating what will happen in the near future. For physicians managing chronic diseases during ambulatory visits, situational awareness consists of taking in a broad overview of key information about patients before walking into the exam room. Upon entering the exam room, the physician can then be mindful of and attuned to the patient sitting before them and the unfolding of their conversation.
+>Situational awareness is having all the background information you need to make effective decisions while simultaneously being aware of what is currently happening around you and anticipating what will happen in the near future. For physicians managing chronic diseases during ambulatory visits, situational awareness consists of taking in a broad overview of key information about patients before walking into the exam room. Upon entering the exam room, the physician can then be mindful of and attuned to the patient sitting before them and the unfolding of their conversation.
 
-如果由于时间上的压力或信息混乱，Dr. Barnes走进诊室时并没有做好100%的准备，她将争取听懂患者的疑虑/担心。[信息混乱](./human-factors.php#info_chaos)
+>如果由于时间上的压力或信息混乱，Dr. Barnes走进诊室时并没有做好100%的准备，她将争取听懂患者的疑虑/担心。[信息混乱](./human-factors.php#info_chaos)
 包括信息过载、不足、分散、传统和错误信息。相反，在患者讲话的时候她将会在电子病历系统中进行检索，疯狂地企图填补知识的不足。患者会意识到医师注意力的分散，可能会认为医师没有好好听他讲话，
 会感觉患者自己被排除在自身身体健康和问题决策之外了。由于医师的注意力被分散了，医师可能会遗漏一些患者讲述的重要细节。
 
-If Dr. Barnes enters the exam room half-prepared due to time pressure or information chaos, then she’ll struggle to listen to the patient’s concerns.[Information chaos](./human-factors.php#info_chaos)(See Information Chaos in the Human Factors chapter) comprises information overload, underload, scatter, conflict, and erroneous information. Instead, she’ll search through the EHR while the patient speaks, frantically trying to fill the gaps in her knowledge. The patient will sense the physician’s distraction, and may feel that he’s not being heard, that he is being left out of decisions that concern his body and wellbeing. The physician may miss something important, telling details about what the patient says because she is distracted.
+>If Dr. Barnes enters the exam room half-prepared due to time pressure or information chaos, then she’ll struggle to listen to the patient’s concerns.[Information chaos](./human-factors.php#info_chaos)(See Information Chaos in the Human Factors chapter) comprises information overload, underload, scatter, conflict, and erroneous information. Instead, she’ll search through the EHR while the patient speaks, frantically trying to fill the gaps in her knowledge. The patient will sense the physician’s distraction, and may feel that he’s not being heard, that he is being left out of decisions that concern his body and wellbeing. The physician may miss something important, telling details about what the patient says because she is distracted.
 
 从[Figure 2.1](#fig-2-1) 和[ Figure 2.2](#fig-2-2)你可以看出，一个列表看起来比另一个整齐。这样的一些简化能够让使用此类列表的用户一眼就看到患者正在服用的药物名称。考虑到其中使用的如“一日两次”
 这样平常的语言而非拉丁的简写如"b.i.d"，如下所示的列表能够同时满足医师和患者的需求。
@@ -87,50 +86,49 @@ A physician or nurse would expect a progress note from a previous visit, a dashb
 在这样的语境下，医师只需要扫一眼药物的名称。避免在这里添加额外的细节信息。简洁的列表更易于医师阅读。医师无需知道药物的数量、起止日期时间或者在某次处方中重复拿药的数量。如果列表中使用的是商品名，一定也要包括药物的通用名。处理商品名、通用名和化学名是很具挑战性的。
 
 In this context, the physician just needs to quickly see the medications’ names. Avoid the temptation to add extraneous detail here. Concise lists are easier to read. Physicians don’t need to see the medications’ quantities, start dates, or the number of refills in a given prescription to perform this task. If the list uses a brand name, be sure to include the product’s generic name as well. Dealing with brand, generic, and compound names can be a challenge (see the following note).
->
-#### 挑战：商品名和通用名的处理
+>#### 挑战：商品名和通用名的处理
 
-这是很棘手的，我们承认：是否在用药列表中展示药物的商品名或通用名，或者2种同时展示，可能并不存在一个正确的答案。具体取决于语境/具体情况和参与对话的人。
+>这是很棘手的，我们承认：是否在用药列表中展示药物的商品名或通用名，或者2种同时展示，可能并不存在一个正确的答案。具体取决于语境/具体情况和参与对话的人。
 电子病历系统能够轻松地获取所有相关药物的通用名和商品名。但在获取时诸多因素会使整个问题变得复杂。
 
-This can get tricky. We’ll admit right now: there may not be one correct answer to the problem of whether to show the brand name, the generic name, or both names by default in medication lists. It depends on the context, and the people in the conversation. The EHR can offer easy access to both the generic and the brand names of all relevant drugs. But several factors complicate the question of the form this access could take.
+>This can get tricky. We’ll admit right now: there may not be one correct answer to the problem of whether to show the brand name, the generic name, or both names by default in medication lists. It depends on the context, and the people in the conversation. The EHR can offer easy access to both the generic and the brand names of all relevant drugs. But several factors complicate the question of the form this access could take.
 
-如下是一些考虑因素。
+>如下是一些考虑因素。
 
-Here are a few considerations.
+>Here are a few considerations.
 
-理想情况下，在正确的时间应该按需展示2种名称即可。有时候，同时展示商品名和通用名是比较好的——比如 “呋塞米片furosemide (Lasix) 20 mg.”。
+>理想情况下，在正确的时间应该按需展示2种名称即可。有时候，同时展示商品名和通用名是比较好的——比如 “呋塞米片furosemide (Lasix) 20 mg.”。
 为了保持一致性，根据通用名来进行字母排序。但如果你使用的是打印列表，你可能得选某一种展示方法。由于通用名可能难以记忆或发音，即使是医师，大家在对话中常常更倾向于使用
 商品名。尝试下面快速读下面的名称3次：
 
-*   阿达木单抗adalimumab — Humira
-*   枢复宁ondansetron — Zofran
-*   furosemide — Lasix
+>*   阿达木单抗adalimumab — Humira
+>*   枢复宁ondansetron — Zofran
+>*   furosemide — Lasix
 
-Ideally, both names would be available on demand at just the right time. Sometimes it may be appropriate to display both generic and brand name —for example “furosemide (Lasix) 20 mg.” For consistency, sort alphabetically by the generic name. But if you’re working with a printed list, then you might have to choose a single method of display. People often prefer to use brand names in conversation because the generic names may be difficult to remember or pronounce, even for for physicians. Say these three times fast:
+>Ideally, both names would be available on demand at just the right time. Sometimes it may be appropriate to display both generic and brand name —for example “furosemide (Lasix) 20 mg.” For consistency, sort alphabetically by the generic name. But if you’re working with a printed list, then you might have to choose a single method of display. People often prefer to use brand names in conversation because the generic names may be difficult to remember or pronounce, even for for physicians. Say these three times fast:
 
-*   adalimumab — Humira
-*   ondansetron — Zofran
-*   furosemide — Lasix
+>*   adalimumab — Humira
+>*   ondansetron — Zofran
+>*   furosemide — Lasix
 
-此类问题常常与一些药品有多种易弄混淆的商品名牵扯在一起。比如，Diltiazem地尔硫卓，可能是：
-*   Cardizem
-*   Cardizem LA
-*   Cardizem CD
-*   Cartia XT
-*   Dilacor XR
-*   etc., etc.
+>此类问题常常与一些药品有多种易弄混淆的商品名牵扯在一起。比如，Diltiazem地尔硫卓，可能是：
+>*   Cardizem
+>*   Cardizem LA
+>*   Cardizem CD
+>*   Cartia XT
+>*   Dilacor XR
+>*   etc., etc.
 
-The problems are compounded by the fact that some medications have many confusing non-interchangeable brand names. Diltiazem, for example, may be available as:
+>The problems are compounded by the fact that some medications have many confusing non-interchangeable brand names. Diltiazem, for example, may be available as:
 
-*   Cardizem
-*   Cardizem LA
-*   Cardizem CD
-*   Cartia XT
-*   Dilacor XR
-*   etc., etc.
+>*   Cardizem
+>*   Cardizem LA
+>*   Cardizem CD
+>*   Cartia XT
+>*   Dilacor XR
+>*   etc., etc.
 
-在和患者讨论药品的时候，医师需要知道那些病人也知道的药物的名称。由于药物名称写在药房配药时的药瓶上，或者是某个名称更易于记忆或发音，患者可能对某个版本的药物名称比较熟悉，
+>在和患者讨论药品的时候，医师需要知道那些病人也知道的药物的名称。由于药物名称写在药房配药时的药瓶上，或者是某个名称更易于记忆或发音，患者可能对某个版本的药物名称比较熟悉，
 。在和患者谈话的时候，医师会发现同时说出药物的两种名称会更有帮助一些(“Your furosemide, also called Lasix”)。同时展示2种名称，特别是那些罕见药，
 可能会减少认知负荷。
 When discussing medications with patients, physicians need to be aware of the name of the drug as the patients know it. Patients may be more familiar with a particular version of a drug’s name because it is what is written on the medication container dispensed by their pharmacy, or because that version of the name is easier to recall or pronounce. When speaking with patients, physicians might find it helpful to refer to drugs by both names (“Your furosemide, also called Lasix”). Having both names displayed, especially for less common drugs may decrease mental effort.
@@ -166,7 +164,7 @@ Gallery 2.2 **Making Added Emphasis to Text Just Right **
 
 On the other hand, sometimes a[deliberately jarring](./design-principles.php#dark-side-of-color)<span class="print-only"> (See The Dark Side of Seeing Color in the Design Principles chapter)</span> type style alerts the user to pay attention. Some EHRs use**tall man lettering** to differentiate look-alike and/or sound-alike drug names that might otherwise be easily (and dangerously) confused. Tall man lettering capitalizes the parts of a word that separate it from its near-doppelgangers: hydrALAzine vs. hydrOXYzine. This unusual, seemingly “incorrect” capitalization says to the user, “Hey, pay attention here, the part I’ve emphasized is really important.” HydrALAzine is a blood pressure medication, hydrOXYzine is an antihistamine. Small differences matter.
 
->#### 前注意属性Preattentive Attributes
+>#### 前注意属性 Preattentive Attributes
 
 >前注意属性是那些人们下意识的注意到并能够快速理解的细小的视觉物体，快到我们只能够注意到这是下意识的。尝试一下下面的测试，能够帮助你理解我们探讨的是什么
 
@@ -627,8 +625,8 @@ Interactive 2.3 Medication Timeline Prototype[Try it out!](http://inspiredehrs.o
 3.  患者最近停用的是哪种药物？
 4.  拖动底部的scrubber直到看到5年期的时间轴
 5.  患者原来停止服用，现在又开始服用的是哪种药物?
-6.  Try dragging the list of medication names on the right side of the frame towards the left. Notice that some names disappear. Only the drugs and the dosages the patient was taking at the point in time you’ve moved the scrubber to will show up on the list.
-
+6.  试着朝左边拖动最右边的药物名称的列表。你会发现其中一些药品名称不见了。只有患者当下在服用的
+药物和剂量才会出现在这个列表之中。
 
 1.  Navigate so that you can see the starting date, September 18, 2013, by dragging the gray shaded area (the scrubber) in the bottom timeline. (We set a current date of September 18th so our prototype will work both now and for years to come).
 2.  What medication did the patient start taking most recently? About when did he start taking it?
@@ -639,54 +637,67 @@ Interactive 2.3 Medication Timeline Prototype[Try it out!](http://inspiredehrs.o
 
 #### 用药时间轴未来的发展方向 Future Directions for Medication Timeline
 
-我们的时间轴目前还不能解决所有的问题。
+我们的时间轴目前还不能解决所有的问题。我们还没有试着去解决复杂人物如化疗、儿科剂量中涉及到的数据需求。其他临床任务
+实际上需要一个整合了其他临床数据的历史视图。比如，华法林抗凝管理(warfarin anticoagulation management)需要
+之前华法林剂量变更、其他药物变更和凝血酶原时间(又称protime, or PT or INR) 实验室检查结果等的详细信息。
+胰岛素管理要求医生能够同时查看最近的血糖结果、 血红蛋白A1c的结果、饮食和活动的信息，有时候还要有患者正常病情或活动的异常信息。。
+
 Our timeline doesn’t yet provide all the answers. We haven’t attempted to address the data needs of complex regimens like chemotherapy, or the variables involved in pediatric dosing. Other clinical tasks really demand a historical view that integrates other clinical data. For example, warfarin anticoagulation management requires details about prior warfarin dose changes, other medication changes, and prothrombin time (also known as protime, or PT or INR) lab results. Insulin management requires physicians to be able to simultaneously view recent blood glucose results, hemoglobin A1c results, diet and activity details, and sometimes other details about exceptions to the patient’s usual condition or activities.
 
-A graphical display of laboratory values to accompany the timeline may help physicians even more. An ideal timeline for cases such as these would allow physicians to see what medication changes, if any, preceded a rise in laboratory markers of liver injury, or how a blood pressure medication affected electrolytes and kidney function. This type of display could enhance patients’ safety and quality of care by presenting information in a way that makes currently obscure patterns and phenomena crystal clear for the user.
+实验室检查结果的图表展示和时间轴一起可能能更多的帮助医生。诸如此类情况的理想时间轴能够让医生了解哪些药物发生变化，如果有的话
+，发现肝损伤的实验室标记出现上升，或者抗血压药物如何影响电解质和肾功能。这种类型的展示方式能够通过一种使目前的模式和现象对用户更加透明的
+方式来提升患者的安全和医疗质量
+
+
+A graphical display of laboratory values to accompany the timeline may help physicians
+ even more. An ideal timeline for cases such as these would allow physicians to see what medication changes, if any, preceded a rise in laboratory markers of liver injury, or how a blood pressure medication affected electrolytes and kidney function. This type of display could enhance patients’ safety and quality of care by presenting information in a way that makes currently obscure patterns and phenomena crystal clear for the user.
+
+ >#### 不同用药列表的设计能够完成不同用户的任务
 
 >#### Different Medication List Designs Address Different Users’ Tasks
 
+>**针对开处方的医生**
 
 >**For Prescribers**
 
-><table class="sidebar-table" id="prescribers"><thead><tr><th>User Tasks</th><th colspan="3">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th><th>Medication Timeline</th></tr></thead><tbody><tr><td>**Scan the list quickly**</td><td>●</td></tr><tr><td>**Manage treatment decisions**  
-<span>(Big picture overview to guide decisions)</span></td><td>●</td><td>●</td></tr><tr><td>**Renew medications**  
-<span>(For when to renew and for making adjustments)</span></td><td>●</td></tr><tr><td>**Perform medication reconciliation**  
-<span>(Comparing two or more lists at transitions of care)</span></td><td>●  
-<span>but see later chapter</span></td></tr><tr><td>**Review time course**</td><td>●</td></tr><tr><td>**Manage temporary changes**
-
->Brief courses (steroid bursts or intermittent treatment such as chemotherapy)
-
->**Adjustments around procedures** (adjustments & temporary medications needed around the time of surgery)
-
-></td><td>●  
-<span>If sort by "expected stop date"</span></td></tr><tr><td>**Recall tried & failed medication courses**  
-<span>(What was effective, what wasn't, and why?)</span></td><td>●  
-<span>But only if the details are recorded by the users</span></td></tr><tr><td>**Assess adherence**  
-<span>(Are refills on time? Are doses taken as planned?)</span></td><td>●  
-<span>Depends on additional data, such as dispense data or patient reporting</span></td></tr></tbody></table>
+><table class="sidebar-table" id="prescribers"><thead><tr><th>用户任务</th><th colspan="3">功能</th></tr><tr><th></th><th>简单列表</th><th>交互式表格</th><th> 用药时间轴</th></tr></thead><tbody><tr><td>**快速浏览列表**</td><td>●</td><td></td><td></td></tr><tr><td>**管理治疗决策**  
+<span>(整体概述来辅助决策)</span></td><td>●</td><td>●</td><td></td></tr><tr><td>**重新拿药**  
+<span>(何时拿药以及做出调整)</span></td><td></td><td>●</td><td></td></tr><tr><td>**完成用药核对**  
+<span>(转诊转科时比较2个或多个列表)</span></td><td>●  
+<span>参考后续章节</span></td><td></td><td></td></tr><tr><td>**回顾时间进程**</td><td></td><td></td><td>●</td></tr><tr><td>**管理临时性变化**     简要的进程(类固醇破裂或如化疗等间歇性治疗)<span> **手术相关的调整**
+ (在手术期间需要的临时用药或用药调整)</span></td><td></td><td>●  
+<span>"期望的停药日期"来排序</span></td><td></td></tr><tr><td>**回忆尝试过的&失败了的用药过程**  
+<span>(哪些药有效、哪些没用，原因是什么?)</span></td><td></td><td></td><td>●  
+<span>但前提是信息是由用户所记录的</span></td></tr><tr><td>**依从性评估**  <span>
+(是否及时再次拿药? 服用的剂量是否和计划的一样?)</span></td><td></td><td></td><td>●  
+<span>取决于诸如配药数据或患者上报等其他数据</span></td></tr></tbody></table>
 >#### For Patients
 
-><table class="sidebar-table" id="patients"><thead><tr><th>User Tasks</th><th colspan="2">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th></tr></thead><tbody><tr><td>**Scan or remember the list**</td><td>●</td></tr><tr><td>**Share the list with others**</td><td>●</td></tr><tr><td>**Restock the[pill organizer](http://en.wikipedia.org/wiki/Pill_organizer)**  
-<span>(Shows which pills go in which slots of those little weekly boxes)</span></td><td>●  
-<span>barely</span></td></tr><tr><td>**Remember daily doses**  
-<span>(Reminds users about daily and less frequent doses and "less than daily" doses. Enables users to check items off the list when they’ve taken them)</span></td><td>●</td><td>●</td></tr><tr><td>**Remember pharmacy refills**  
-<span>(Helps users coordinate trips to the pharmacy and ask their doctors for renewals)</span></td><td>●  
-<span>Would need data from pharmacy, or from bottle</span></td></tr><tr><td>**Update list at end of doctor visit**  
-<span>(Creates a final list that takes into account all the changes to the medication list that have been made during a given clinical encounter)</span></td><td>●</td></tr></tbody></table></div></div></div></div></div></section><section id="summary" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
+><table class="sidebar-table" id="patients"><thead><tr><th>用户的任务</th><th colspan="2">功能</th></tr><tr><th></th><th>简单列表</th><th>交互式表格</th></tr></thead><tbody><tr><td>**浏览或记住列表**</td><td>●</td><td></td></tr><tr><td>**与他人分享列表**</td><td>●</td><td></td></tr><tr><td>**Restock the [pill organizer](http://en.wikipedia.org/wiki/Pill_organizer)**  
+<span>(展示pill应该放在小小的每周的药盒的哪些地方)</span></td><td></td><td>●  
+<span>几乎没有</span></td></tr><tr><td>**记住日常的剂量**  
+<span>(提醒用户日常用药和不常用药的剂量。让用户在服药时核对那些不在列表中的药品)</span></td><td>●</td><td>●</td></tr><tr><td>**记住药房的重新配药**  
+<span>(帮助用户协调去药房拿药以及请医生重新续药)</span></td><td></td><td>●  
+<span>可能需要来自药房的数据或来自药瓶的数据</span></td></tr><tr><td>**在门诊之后更新列表**  
+<span>(考虑在某次就诊之后对用药列表所做的所有变化生成一个最终版的列表)</span></td><td></td><td>●</td></tr></tbody></table>
+
 
 * * *
 
 ### 2.4 总结Summary
 
-1.  When designing EHR tools, consider the user and the task they’ll be performing. This will help you decide what functions and details a physician needs when using a particular medication list view.
-2.  Use[preattentive attributes](./human-factors.php#preattentive-attributes)<span class="print-only"> (See Preattentive Attribute in the Human Factors chapter)</span> (like color, size, shape and alignment) to draw the user’s attention to the salient details.
-3.  Design in monochrome first, then add color sparingly and meaningfully where it can add information without distracting the user.
-4.  Remember that humans have very limited[working memory](./human-factors.php#working-memory)<span class="print-only"> (See Working Memory in the Human Factors chapter)</span>, especially for complex or compound items like medications and dosages. Where possible, put information directly in view. Eliminate the need for physicians to remember details from one step to the next in a task sequence.
-5.  Enhance users’ situational awareness by giving them an overview of all the key details.
-6.  Reduce users'[cognitive load](./human-factors.php#cognitive-load)<span class="print-only"> (See Cognitive Load in the Human Factors chapter)</span>. Do the math for them. Design to minimize repetitive reading. Present the information directly instead of requiring the user to recall it.
-7.  Remember the data visualization mantra: overview first, then zoom and filter, then details-on-demand.
-8.  Design to accommodate large medication lists. Remember that it’s not uncommon for some patients to have 15-20 medications on their active list. Try to design lists that don’t require users to scroll to see all the medications at once.
+1.  在设计EHR电子病历系统时，要考虑用户和他们要完成的一些任务。这些内容能够帮助
+你决定在使用某种特殊的用药列表视图时，医生需要哪些功能和详细信息.
+2.  使用[preattentive attributes](./human-factors.php#preattentive-attributes)<span class="print-only"> (参考 Preattentive Attribute in the Human Factors chapter)</span> (诸如颜色、大小、形状和对齐)来吸引用户的注意力到
+突出的细节。
+3.  首先使用单色来设计，然后谨慎地和有意义地添加颜色，也就是那些能够添加信息而不分散用户注意力的地方。
+4.  要牢记人们的[工作记忆](./human-factors.php#working-memory)<span class="print-only"> (See Working Memory in the Human Factors chapter)</span>, 特别是像用药和剂量等复杂项或混合物。尽可能将信息直接置于视图之中。
+杜绝医生需要在一系列的工作流程中记住某个步骤中的详细信息.
+5.  通过给用户所有关键信息的概述来提升用户的态势感知
+6.  减少用户的[认知负载](./human-factors.php#cognitive-load)<span class="print-only"> (See Cognitive Load in the Human Factors chapter)</span>. 替用户做脏活累活。设计时要力求最小化重复阅读。直接地展示信息而不是要求用户记忆信息
+7.  牢记数据可视化的奇妙之处：首先是概览，然后是缩放和过滤，最后是按需展示详细信息
+8.  设计要能够适应超大用药列表.要牢记在现用药列表中存在15-20种药品是很常见的。
+尝试设计无需滚动视图即可查看患者的所有用药信息的列表.
 
 
 译者注：
@@ -696,8 +707,8 @@ A graphical display of laboratory values to accompany the timeline may help phys
 4、dashboard overview 病历概要
 5、mental effort 认知负荷
 6、de-emphasizing
-7、Dosage instructions用法用量
-8、preattentive attributes
+7、Dosage instructions 用法用量
+8、preattentive attributes 前注意属性
 9、workhorse 标配
 10、medication renewal
 11、co-pay——
@@ -707,3 +718,5 @@ A graphical display of laboratory values to accompany the timeline may help phys
 12、prescription renewal
 13、in the beta-blocker class
 14、cross hatching 交叉阴影
+15、Renew medications 重新拿药
+16、 data visualization mantra
