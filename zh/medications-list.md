@@ -700,23 +700,23 @@ A graphical display of laboratory values to accompany the timeline may help phys
 尝试设计无需滚动视图即可查看患者的所有用药信息的列表.
 
 
-译者注：
-1、Exam Room  诊疗室 检查室 根据语境来看 这里就是医生自己的办公室  诊疗室。
-2、situational awareness  态势感知 参考http://news.xinhuanet.com/mil/2011-12/09/c_122402518.htm
-3、medication reminder boxes
-4、dashboard overview 病历概要
-5、mental effort 认知负荷
-6、de-emphasizing
-7、Dosage instructions 用法用量
-8、preattentive attributes 前注意属性
-9、workhorse 标配
-10、medication renewal
-11、co-pay——
+译者注：          
+1、Exam Room  诊疗室 检查室 根据语境来看            这里就是医生自己的办公室  诊疗室。        
+2、situational awareness  态势感知              参考http://news.xinhuanet.com/mil/2011-12/09/c_122402518.htm
+3、medication reminder boxes            
+4、dashboard overview 病历概要        
+5、mental effort 认知负荷       
+6、de-emphasizing        
+7、Dosage instructions 用法用量          
+8、preattentive attributes 前注意属性         
+9、workhorse 标配      
+10、medication renewal   
+11、co-pay——        
 比如保险中规定医疗费用达到1000以上，多出的部分保险公司才报销，1000以下自理，这个1000就是deductible
 比如总共花了3000，那多出的2000，根据不同的医疗服务项目，有的是受保人要固定支出的共同费用（比如10元，100元），这种固定的共同费用就是Copay/Copayment
-有的是受保人按照一定比率自己支付的费用（比如10%，20%），这种按照比率收取的费用就是Coinsurance。是不是这样？
-12、prescription renewal
-13、in the beta-blocker class
-14、cross hatching 交叉阴影
-15、Renew medications 重新拿药
-16、 data visualization mantra
+有的是受保人按照一定比率自己支付的费用（比如10%，20%），这种按照比率收取的费用就是Coinsurance。是不是这样？              
+12、prescription renewal            
+13、in the beta-blocker class      
+14、cross hatching 交叉阴影           
+15、Renew medications 重新拿药               
+16、 data visualization mantra             
