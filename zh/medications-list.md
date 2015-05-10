@@ -701,8 +701,8 @@ A graphical display of laboratory values to accompany the timeline may help phys
 
 
 译者注：
-1、Exam Room  诊疗室 检查室 根据语境来看 这里就是医生自己的办公室  诊疗室。
-2、situational awareness  态势感知 参考http://news.xinhuanet.com/mil/2011-12/09/c_122402518.htm
+1、Exam Room  诊疗室 检查室 根据语境来看            这里就是医生自己的办公室  诊疗室。
+2、situational awareness  态势感知              参考http://news.xinhuanet.com/mil/2011-12/09/c_122402518.htm
 3、medication reminder boxes
 4、dashboard overview 病历概要
 5、mental effort 认知负荷
@@ -719,4 +719,10 @@ A graphical display of laboratory values to accompany the timeline may help phys
 13、in the beta-blocker class
 14、cross hatching 交叉阴影
 15、Renew medications 重新拿药
-16、 data visualization mantra           
+16、 data visualization mantra
+有的是受保人按照一定比率自己支付的费用（比如10%，20%），这种按照比率收取的费用就是Coinsurance。是不是这样？
+12、prescription renewal
+13、in the beta-blocker class
+14、cross hatching 交叉阴影
+15、Renew medications 重新拿药
+16、 data visualization mantra
