@@ -8,7 +8,7 @@
 * * *
 
 
-用药列表记录了患者当下正在服用的所有药品和规定剂量相关的信息。用药列表可以是多种形式，这章中只关注三类：**简单的列表形式**、**交互式列表形式**、**时间轴形式**。同时我们会给大家提出一些建议和存在的挑战。
+用药列表记录了患者当下正在服用的所有药品和规定的剂量相关的信息。用药列表可以是多种形式，这章中只关注三类：**简单的列表形式**、**交互式列表形式**、**时间轴形式**。同时我们会给大家提出一些建议和存在的挑战。
 
 Medication lists record information about all the drugs a patient is currently receiving and their prescribed dosages. Medication lists come in many forms, but this chapter will only focus on three:**simple lists**,**interactive lists**, and**medication timelines**. We’ll offer a few tips and challenges along the way.
 
@@ -719,4 +719,4 @@ A graphical display of laboratory values to accompany the timeline may help phys
 13、in the beta-blocker class
 14、cross hatching 交叉阴影
 15、Renew medications 重新拿药
-16、 data visualization mantra
+16、 data visualization mantra           

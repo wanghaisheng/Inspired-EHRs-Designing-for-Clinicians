@@ -1,5 +1,5 @@
-# Inspired EHRs Designing for Clinicians 
-Chinese and English Version of Book Inspired EHRs: Designing for Clinicians 
+# Inspired EHRs Designing for Clinicians
+Chinese and English Version of Book Inspired EHRs: Designing for Clinicians
 ======
 
 This is a [GitBook](http://wanghaisheng.gitbooks.io/inspired-ehrs-designing-for-clinicians/content/) version of book: [Inspired EHRs: Designing for Clinicians ](http://inspiredehrs.org/).

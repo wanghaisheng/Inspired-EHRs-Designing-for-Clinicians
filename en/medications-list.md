@@ -45,7 +45,7 @@ If Dr. Barnes enters the exam room half-prepared due to time pressure or informa
 
 Look at[Figure 2.1](#fig-2-1) and[ Figure 2.2](#fig-2-2). As you can probably tell, one list looks cleaner than the other. Such simplicity makes it easy for people using this list to see the names of the drugs the patient is taking, which allows a quick overview. Given that it uses plain language like “twice daily,” instead of Latin abbreviations like “b.i.d.,” the list below would meet the needs of both physicians and patients.
 
-</div><div class="one-half column"><div class="example" id="fig-2-1"><div class="ex-title"><span class="ex-type">Figure 2.1</span><span class="ex-caption">Before: An Awful Medication List  
+</div><div class="one-half column"><div class="example" id="fig-2-1"><div class="ex-title"><span class="ex-type">Figure 2.1</span><span class="ex-caption">Before: An Awful Medication List
 </span></div>[![A medication list that is difficult to read](./images/EHR_SimpleList_Before.png)](./images/EHR_SimpleList_Before.png "Figure 2.1 - Before: An Awful Medication List")</div></div><div class="one-half column"><div class="example" id="fig-2-2"><div class="ex-title"><span class="ex-type">Figure 2.2</span><span class="ex-caption">After: Simple Medication List Makeover</span></div>[![A simple medication list that's easier to scan](./images/EHR_SimpleList_After.png)](./images/EHR_SimpleList_After.png "Figure 2.2 - After: Simple Medication List Makeover")</div></div><div class="sixteen columns">
 
 Patients can also use this list. Patients can easily show this list to other physicians, dentists, emergency room staff, or their caregivers. Patients filling up weekly medication reminder boxes might, however, need a more detailed list —perhaps one that illustrates the contents of each compartment of their box, and more clearly differentiates the time of day at which they should take each dose of medication.
@@ -365,30 +365,30 @@ A graphical display of laboratory values to accompany the timeline may help phys
 
 **For Prescribers**
 
-<table class="sidebar-table" id="prescribers"><thead><tr><th>User Tasks</th><th colspan="3">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th><th>Medication Timeline</th></tr></thead><tbody><tr><td>**Scan the list quickly**</td><td>●</td></tr><tr><td>**Manage treatment decisions**  
-<span>(Big picture overview to guide decisions)</span></td><td>●</td><td>●</td></tr><tr><td>**Renew medications**  
-<span>(For when to renew and for making adjustments)</span></td><td>●</td></tr><tr><td>**Perform medication reconciliation**  
-<span>(Comparing two or more lists at transitions of care)</span></td><td>●  
+<table class="sidebar-table" id="prescribers"><thead><tr><th>User Tasks</th><th colspan="3">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th><th>Medication Timeline</th></tr></thead><tbody><tr><td>**Scan the list quickly**</td><td>●</td></tr><tr><td>**Manage treatment decisions**
+<span>(Big picture overview to guide decisions)</span></td><td>●</td><td>●</td></tr><tr><td>**Renew medications**
+<span>(For when to renew and for making adjustments)</span></td><td>●</td></tr><tr><td>**Perform medication reconciliation**
+<span>(Comparing two or more lists at transitions of care)</span></td><td>●
 <span>but see later chapter</span></td></tr><tr><td>**Review time course**</td><td>●</td></tr><tr><td>**Manage temporary changes**
 
 Brief courses (steroid bursts or intermittent treatment such as chemotherapy)
 
 **Adjustments around procedures** (adjustments & temporary medications needed around the time of surgery)
 
-</td><td>●  
-<span>If sort by "expected stop date"</span></td></tr><tr><td>**Recall tried & failed medication courses**  
-<span>(What was effective, what wasn't, and why?)</span></td><td>●  
-<span>But only if the details are recorded by the users</span></td></tr><tr><td>**Assess adherence**  
-<span>(Are refills on time? Are doses taken as planned?)</span></td><td>●  
+</td><td>●
+<span>If sort by "expected stop date"</span></td></tr><tr><td>**Recall tried & failed medication courses**
+<span>(What was effective, what wasn't, and why?)</span></td><td>●
+<span>But only if the details are recorded by the users</span></td></tr><tr><td>**Assess adherence**
+<span>(Are refills on time? Are doses taken as planned?)</span></td><td>●
 <span>Depends on additional data, such as dispense data or patient reporting</span></td></tr></tbody></table>
 #### For Patients
 
-<table class="sidebar-table" id="patients"><thead><tr><th>User Tasks</th><th colspan="2">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th></tr></thead><tbody><tr><td>**Scan or remember the list**</td><td>●</td></tr><tr><td>**Share the list with others**</td><td>●</td></tr><tr><td>**Restock the[pill organizer](http://en.wikipedia.org/wiki/Pill_organizer)**  
-<span>(Shows which pills go in which slots of those little weekly boxes)</span></td><td>●  
-<span>barely</span></td></tr><tr><td>**Remember daily doses**  
-<span>(Reminds users about daily and less frequent doses and "less than daily" doses. Enables users to check items off the list when they’ve taken them)</span></td><td>●</td><td>●</td></tr><tr><td>**Remember pharmacy refills**  
-<span>(Helps users coordinate trips to the pharmacy and ask their doctors for renewals)</span></td><td>●  
-<span>Would need data from pharmacy, or from bottle</span></td></tr><tr><td>**Update list at end of doctor visit**  
+<table class="sidebar-table" id="patients"><thead><tr><th>User Tasks</th><th colspan="2">Capabilities</th></tr><tr><th>Simple List</th><th>Interactive Table</th></tr></thead><tbody><tr><td>**Scan or remember the list**</td><td>●</td></tr><tr><td>**Share the list with others**</td><td>●</td></tr><tr><td>**Restock the[pill organizer](http://en.wikipedia.org/wiki/Pill_organizer)**
+<span>(Shows which pills go in which slots of those little weekly boxes)</span></td><td>●
+<span>barely</span></td></tr><tr><td>**Remember daily doses**
+<span>(Reminds users about daily and less frequent doses and "less than daily" doses. Enables users to check items off the list when they’ve taken them)</span></td><td>●</td><td>●</td></tr><tr><td>**Remember pharmacy refills**
+<span>(Helps users coordinate trips to the pharmacy and ask their doctors for renewals)</span></td><td>●
+<span>Would need data from pharmacy, or from bottle</span></td></tr><tr><td>**Update list at end of doctor visit**
 <span>(Creates a final list that takes into account all the changes to the medication list that have been made during a given clinical encounter)</span></td><td>●</td></tr></tbody></table></div></div></div></div></div></section><section id="summary" class="section"><div class="container"><div class="sixteen columns"><div class="sectionStart">
 * * *
 

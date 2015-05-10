@@ -140,15 +140,15 @@ After the patient has reviewed the medication list, the physician must review th
 <div class="quicktip"><div class="sidebar cf" id="medication-adherence">
 #### Challenge - Medication Adherence
 
-**The Capture of Adherence Information**  
+**The Capture of Adherence Information**
  There are two main ways to capture information about patients medication<span class="elipsis">...<span class="a">Read more</span></span>
 
 <div class="qt-content show">
 
-**The Capture of Adherence Information**  
+**The Capture of Adherence Information**
 There are two main ways to capture information about patients' medication adherence (or lack thereof). One is to ask patients to provide the information, and the other is to track information about prescription fills from the e-prescribing network. At the moment, not all pharmacies, pharmacy benefit managers, and insurance plans are linked with e-prescribing networks, but even incomplete databases can complement patients’ reports and help draw more accurate pictures of patients’ adherence patterns.
 
-**Non-Adherence Is Widespread**  
+**Non-Adherence Is Widespread**
 A significant number of patients never fill their prescriptions. In developed countries, an average of 50% of patients with chronic diseases neglect to do so<sup>1</sup>. Patients commonly over-report their degree of adherence, as well. Physicians are encouraged to use language that is non-judgmental. User interfaces can use similar language as well, to encourage patients to give accurate answers. The medication reconciliation process aims to uncover the truth, and from there to allow the patients and physicians to collaboratively align their goals and come up with a plan of care that both parties can get behind.
 
 </div></div></div><div class="quicktip"><div class="sidebar cf" id="stop-taking">
