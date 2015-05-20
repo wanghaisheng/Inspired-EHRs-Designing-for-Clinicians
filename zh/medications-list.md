@@ -15,15 +15,19 @@ Medication lists record information about all the drugs a patient is currently r
 Gallery 2.1
 
 2.1 a **简单的列表形式**— 能够帮助医生完成多种工作，比如做出治疗决策，完成电子处方。
+
 ![A simple medication list](../images/SimpleList_ReduceNoise.png)
 
 2.1 b **简单的列表形式**— 也很适合患者在移动端访问。
+
 ![Simple lists are also good for mobile](../images/SimpleListMobile.png)
 
 2.1 c **交互式列表形式**— 包含了更多有关用药的详细信息，能够帮助医生完成多种工作，比如做出治疗决策，完成电子处方。
+
 ![An interactive table as a medication list](../images/UM_EHR_0000_table.png)
 
 2.1 d **时间轴形式**— 充分利用了信息可视化的作用，能够让医生掌握随着时间推移用药情况的变化。
+
 ![A medication timeline](../images/UM_EHR_0000_Annotated-Timeline.png)
 
 
@@ -69,8 +73,11 @@ In this scenario, the physician needs to have an overall awareness of the patien
 Look at[Figure 2.1](#fig-2-1) and[ Figure 2.2](#fig-2-2). As you can probably tell, one list looks cleaner than the other. Such simplicity makes it easy for people using this list to see the names of the drugs the patient is taking, which allows a quick overview. Given that it uses plain language like “twice daily,” instead of Latin abbreviations like “b.i.d.,” the list below would meet the needs of both physicians and patients.
 
 Figure 2.1 **Before: An Awful Medication List**
+
 ![Figure 2.1 **Before: An Awful Medication List**](../images/EHR_SimpleList_Before.png)
+
 Figure 2.2 **After: Simple Medication List Makeover**
+
 ![Figure 2.2 **After: Simple Medication List Makeover**](../images/EHR_SimpleList_After.png)
 
 
@@ -197,10 +204,12 @@ Alphabetize the list. Readers expect a list of text items to be alphabetical. Th
 Reduce visual noise. If a visual element doesn’t add data or improve the perception or processing of information, try leaving it out. See[ Figures 2.3](#fig-2-3) and[2.4](#fig-2-4).
 
 Figure 2.3    **Before: The Frame Creates Visual Noise**
-[![A simple list as a table with thick borders](../images/SimpleList_Noisy.png)
+
+![A simple list as a table with thick borders](../images/SimpleList_Noisy.png)
 
 Figure 2.4    **After: Cleaner, Data Takes Center Stage**
-[![A cleaner simple list with clear information hierarchy](../images/SimpleList_ReduceNoise.png)
+
+![A cleaner simple list with clear information hierarchy](../images/SimpleList_ReduceNoise.png)
 
 边框并没有添加信息，移除边框能够让你的数据减少视觉噪声。
 
@@ -325,6 +334,7 @@ Gallery 2.3 **Easing Mental Work** — How many current medications for hyperten
 *  ![Interactive table sorted by Condition](../images/UM_EHR_0001_sort-condition.png)
 
 2.3 b **Filtered by Condition**
+
 *  ![Interactive table filtered by Condition](../images/Um_Ehr_0002_condition-focus.png)
 
 通过将药品名称与药品的参考信息关联起来，实现通过点击获取**剂量范围信息**。
@@ -569,6 +579,7 @@ Gallery 2.5 **Medication Timeline**
 ![Active Medications in the Timeline](../images/UM_EHR_0000_Annotated-Timeline.png)
 
 *   2.5 c **Grab the Scrubber**— Drag it across the timeline to look at more details about certain dates
+
 ![Drag scrubber to look at more details about certain dates](../images/UM_EHR_0002_drag.png)
 
 *   2.5 d **Dragging the Scrubber Further Back in Time**— Medications not yet prescribed appear as grayed out names, and the labels disappear.
@@ -580,6 +591,7 @@ Gallery 2.5 **Medication Timeline**
 ![Active medications are at the top, inactive medications are at the bottom](../images/UM_EHR_0004_show-all.png)
 
 *   2.5 f **Tap on a Medication Line to See More Details**
+
 ![Tap on a Medication Line to See More Details](../images/UM_EHR_0005_hover.png)
 
 *   2.5 g **Expanding a Bar Reveals Details that Influenced a Patient’s History with a Medication**— Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table.
@@ -587,6 +599,7 @@ Gallery 2.5 **Medication Timeline**
 ![Click to expand a bar](../images/UM_EHR_0013_tap1.png)
 
 *   2.5 h **Back to Where We Started**
+
 ![Active medications in the timeline](../images/UM_EHR_0000_Annotated-Timeline.png)
 
 浏览下面的演示视频来了解时间轴的操作。
@@ -671,7 +684,10 @@ A graphical display of laboratory values to accompany the timeline may help phys
 <span>但前提是信息是由用户所记录的</span></td></tr><tr><td>**依从性评估**  <span>
 (是否及时再次拿药? 服用的剂量是否和计划的一样?)</span></td><td></td><td></td><td>●  
 <span>取决于诸如配药数据或患者上报等其他数据</span></td></tr></tbody></table>
->#### For Patients
+
+>**针对患者**
+
+>**For Patients**
 
 ><table class="sidebar-table" id="patients"><thead><tr><th>用户的任务</th><th colspan="2">功能</th></tr><tr><th></th><th>简单列表</th><th>交互式表格</th></tr></thead><tbody><tr><td>**浏览或记住列表**</td><td>●</td><td></td></tr><tr><td>**与他人分享列表**</td><td>●</td><td></td></tr><tr><td>**Restock the [pill organizer](http://en.wikipedia.org/wiki/Pill_organizer)**  
 <span>(展示pill应该放在小小的每周的药盒的哪些地方)</span></td><td></td><td>●  
@@ -701,28 +717,50 @@ A graphical display of laboratory values to accompany the timeline may help phys
 
 
 译者注：
-1、Exam Room  诊疗室 检查室 根据语境来看            这里就是医生自己的办公室  诊疗室。
-2、situational awareness  态势感知              参考http://news.xinhuanet.com/mil/2011-12/09/c_122402518.htm
+
+1、Exam Room  诊疗室 检查室 根据语境来看这里就是医生自己的办公室  诊疗室。
+
+2、situational awareness  态势感知
+参考http://news.xinhuanet.com/mil/2011-12/09/c_122402518.htm
+
 3、medication reminder boxes
+
 4、dashboard overview 病历概要
+
 5、mental effort 认知负荷
+
 6、de-emphasizing
+
 7、Dosage instructions 用法用量
+
 8、preattentive attributes 前注意属性
+
 9、workhorse 标配
+
 10、medication renewal
+
 11、co-pay——
 比如保险中规定医疗费用达到1000以上，多出的部分保险公司才报销，1000以下自理，这个1000就是deductible
 比如总共花了3000，那多出的2000，根据不同的医疗服务项目，有的是受保人要固定支出的共同费用（比如10元，100元），这种固定的共同费用就是Copay/Copayment
 有的是受保人按照一定比率自己支付的费用（比如10%，20%），这种按照比率收取的费用就是Coinsurance。是不是这样？
+
 12、prescription renewal
+
 13、in the beta-blocker class
+
 14、cross hatching 交叉阴影
+
 15、Renew medications 重新拿药
+
 16、 data visualization mantra
 有的是受保人按照一定比率自己支付的费用（比如10%，20%），这种按照比率收取的费用就是Coinsurance。是不是这样？
+
 12、prescription renewal
+
 13、in the beta-blocker class
+
 14、cross hatching 交叉阴影
+
 15、Renew medications 重新拿药
+
 16、 data visualization mantra
