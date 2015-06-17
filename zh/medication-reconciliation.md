@@ -87,24 +87,24 @@ Let's look through some individual images of Twinlist ([Figure 3.1](#fig-3-1) to
 
 Figure 3.1 **并排展示的两个列表**— 在 Twinlist 开始匹配类似药物之前
 
-![Intake and ambulatory Lists Side by Side before matching](../images/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png)
+![Intake and ambulatory Lists Side by Side before matching](images/UmEhr_TwinList_0000_two-lists-side-by-side-before-matching.png)
 
 Figure 3.2 **相同的药品居中，不同的药品居左/居右显示 **— 类似的药品 (e.g. Aricept and donepezil)对齐显示，其中类似药品的不同之处用黄色高亮显示
 
-![Identical Drugs Move to the Center, Unique Drugs Move to The Sides](../images/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png)
+![Identical Drugs Move to the Center, Unique Drugs Move to The Sides](images/UmEhr_TwinList_0001_the-identical-drugs-moved-to-the-center.png)
 
 Figure 3.3 **鼠标停留在药品上**— (Amaryl)药品的背景呈暗色高亮显示，与之类似的药品也被高亮显示(glimepiride).药品的其他详细信息则展示在屏幕的最下面。
 
-![Hover over a Drug and Similar drugs are also highlighted](../images/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png)
+![Hover over a Drug and Similar drugs are also highlighted](images/UmEhr_TwinList_0004_when-the-pointer-hovers-over-a-drug.png)
 
 Figure 3.4 **鼠标点击药品，选择药品则表示该药品应该在出院后继续服用**— 药品的背景色变为绿色。再次点击(或者右键点击)则取消选择，表示停用该药物。停用的药物呈灰色。类似的药物自动地取消选择(
 比如glimepiride)。可以在诸如iPad等触屏设备上使用滑动手势。
 
-![drug becomes bright green when selected](../images/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png)
+![drug becomes bright green when selected](images/UmEhr_TwinList_0002_the-drug-becomes-bright-green-when-selected.png)
 
 Figure 3.5 **最终的待审核的整合过的用药列表**— 查看所有[亮绿色](./design-principles.php#dark-side-of-color) (See The Dark Side of Color in the Design Principles chapter)</span>的已选中药物，可以很明显地看出该药物来自哪个列表。
 
-![The final reconciled list with all the selected drugs bright green, and it’s clear what lists they’ve come from.](../images/UmEhr_TwinList_0003_the-final-selection.png)
+![The final reconciled list with all the selected drugs bright green, and it’s clear what lists they’ve come from.](images/UmEhr_TwinList_0003_the-final-selection.png)
 
 #### 3.1.2 Twinlist 中用到的人为因素原则 Human Factors Principles Used in Twinlist
 
@@ -198,7 +198,7 @@ Healthcare team members can collect information about patients’ adherence to t
 
 Figure 3.6 **门诊部简化的用药核对工作流程**
 
-![Simplified Medication Reconciliation Workflow in Ambulatory Setting](../images/ambulatorychart.png)
+![Simplified Medication Reconciliation Workflow in Ambulatory Setting](images/ambulatorychart.png)
 
 不同诊所的用药核对流程各异，取决于不同诊所分配给员工的角色。在某些诊所，护士与患者面谈患者
 ，更新用药列表，必要时对患者的用药依从性进行批注。随后医生确认与患者相关的批注，对不确定的细节进行确认。其他诊
@@ -250,28 +250,28 @@ We offer a design example with the following series of images (Figures[3.7](#fig
 
 Figure 3.7 **界面中每次只显示一种患者用药列表中的药物——只有不多的几个可标记的选项**—这种展现方式很适合触屏界面。进度条说明了用药列表中有多少种药物(能够帮助用户了解[flow state](./human-factors.php#flow-state))
 
-![Patient selects that they are taking a medication](../images/UmEhr_MedRec_0011_patient_stepmed_taking.png)
+![Patient selects that they are taking a medication](images/UmEhr_MedRec_0011_patient_stepmed_taking.png)
 
 Figure 3.8 **出于多种原因， 患者可能并没有服用某种药物**— 医生下达了处方，但患者接收不了这种药物，并没有去拿药等
 
-![Patient selects that they are not taking a medication](../images/UmEhr_MedRec_0012_patient_stepmed_nottaking.png)
+![Patient selects that they are not taking a medication](images/UmEhr_MedRec_0012_patient_stepmed_nottaking.png)
 
 Figure 3.9 **“在服药，但没有按照要求的服用”**— 这种回答足以促使医生和患者之间就依从性进行沟通
 
-![Patient selects that they are taking a medication, but not as directed](../images/UmEhr_MedRec_0013_patient_stepmed_takingbut.png)
+![Patient selects that they are taking a medication, but not as directed](images/UmEhr_MedRec_0013_patient_stepmed_takingbut.png)
 
 Figure 3.10 **患者对某种药物表示不太确定.**— 可能没有认出来药物名称，可能不清楚具体的剂量，或者可能对其他内容不太确定
 
-![Patient selects that they are taking a medication, but not as directed](../images/UmEhr_MedRec_0014_patient_notsure.png)
+![Patient selects that they are taking a medication, but not as directed](images/UmEhr_MedRec_0014_patient_notsure.png)
 
 Figure 3.11 **患者已经复核了所有的药物**— 这个选项提示患者添加缺失的药物。同时也提醒患者添加正在服用的其他药物。界面中
 允许使用模糊的错误的拼写，在患者输入的时候会推荐一些可能的药物名称。
 
-![The patient adds medications they are taking that haven't been listed](../images/UmEhr_MedRec_0003_patient_addmed.png)
+![The patient adds medications they are taking that haven't been listed](images/UmEhr_MedRec_0003_patient_addmed.png)
 
 Figure 3.12 **从患者的角度对用药列表的最终复核**— 患者可以对整个用药列表进行复核，对需要医生续的药物进行标记和评论。
 
-![The patient can review the list, add comments, and mark medications for renewal](../images/UmEhr_MedRec_0010_patient_endlist.png)
+![The patient can review the list, add comments, and mark medications for renewal](images/UmEhr_MedRec_0010_patient_endlist.png)
 
 
 在患者对整个用药列表复核之后，医生必须审核被标注过的用药列表。对于其中有异议和不确定的地方应该通过沟通来解决。最后把curated details的内容添加到患者的病历中去。
@@ -348,12 +348,12 @@ Figure 3.13 **用药列表按照复核时的问题进行排序**— 可操作的
 
 Actionable items are grouped together: new medications will probably need to be added, medications the patient reports not taking may need to be adjusted or removed, medications the patient is unsure about will have to be discussed, etc. The red and green bars on the left side show whether the patient is “taking” or “not taking” the specific medications.
 
-![The List Sorted According to Answers Provided](../images/UmEhr_MedRec_0007_physician_list2.png)
+![The List Sorted According to Answers Provided](images/UmEhr_MedRec_0007_physician_list2.png)
 
 Figure 3.14 **在与患者的谈话过程中医生可以敲定一些细节，编辑评论的部分
 The Physician Can Clarify the Details during a Conversation with the Patient, and Then Edit the Comments**
 
-![The physician clarifies details with the patient](../images/UmEhr_MedRec_0008_physician_list2_edit.png)
+![The physician clarifies details with the patient](images/UmEhr_MedRec_0008_physician_list2_edit.png)
 
 Figure 3.15 **医生可以移动药物 The Physician Can Move Medications**— 可以把药物从一个组移动到另一个组，
 要么是拖拉的方式 要么是通过菜单选择的方式。理想情况下，在面谈完成之后，所有药物要么是在"服用"要么是在"停用"类。
@@ -361,12 +361,12 @@ Figure 3.15 **医生可以移动药物 The Physician Can Move Medications**— �
 
 Medications can be moved from one group to another, either with a drag and drop gesture or using menu selections. Ideally, by the end of the interview, all the drugs on the list will have moved into the “taking” or “not taking” category. In this figure, Celebrex has been moved to the “taking” category.
 
-![The Physician Can Move Medications](../images/UmEhr_MedRec_0006_physician_list_movemed.png)
+![The Physician Can Move Medications](images/UmEhr_MedRec_0006_physician_list_movemed.png)
 
 Figure 3.16**医生能够选择确认所有或部分药物的状态
 The Physician Has the Option to Confirm the Status of All or Some of the Medications**
 
-![The Physician Confirms Recommendations](../images/UmEhr_MedRec_0002_physician_endlist_annot.png)
+![The Physician Confirms Recommendations](images/UmEhr_MedRec_0002_physician_endlist_annot.png)
 
 图3.16中的列表就是医生对用药列表的最终审核。一旦医生点击了左上角的"确认评审"按钮，批准了整个用药列表，
 电子病历系统则更新患者病历中的用药列表，保存所有依从性相关的批注。用药列表中每个药物所处的分组确定了最终的核对后的用药列表在患者病历中的保存方式。

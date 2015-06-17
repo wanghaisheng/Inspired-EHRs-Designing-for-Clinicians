@@ -1,47 +1,81 @@
 ## 5
 
-## E-Prescribing and  
-Computerized Physician Order Entry (CPOE)
+## 电子处方和计算机辅助医嘱录入 E-Prescribing and  Computerized Physician Order Entry (CPOE)
 
+电子处方能够改善用户的准确率、效率和用户体验
 
 E-Prescribing offers an opportunity to improve user accuracy and efficiency, a satisfying experience.
 
 * * *
 
+由于能够减少手写处方、更新用药列表以及变更诊疗记录的工作量，电子处方eRx成为了医生最满意的工具之一。但如果电子病历系统辅助数据录入的功能不够强大的话，
+电子处方也会令人失望。电子处方能够减少由于药剂师误解处方、配出错误的剂量、或是与医生想要开的药品名十分相似的错误药品等引起的用药过失。
 
 E-Prescribing (eRx) can be one of the most satisfying tasks of the physician because it saves the duplication of effort involved in hand-writing prescriptions, updating the list of medications, and including the changes in the office notes. E-Prescribing can also be frustrating when the EHR does not provide adequate data entry support. E-Prescribing offers the opportunity to reduce the medication errors that can result from pharmacists misreading prescriptions, dispensing an incorrect dose, or even prescribing the wrong drug because its name was similar to the name of the drug the physician actually intended.
 
+电子处方的后台程序会发送片段的电子化数据到中心节点，由中心节点把处方信息以电子化的方式发送给待接收的药房(如果药房不支持电子处方的话可通过传真)。
+药房也可以发送续药请求到下达医嘱的医生。还未广泛应用的新功能能够让下达处方的医生发送电子化的消息给药房来取消之前下达的处方。
+
 The back-end process of e-prescribing sends discrete electronic data to a central hub, which then distributes the prescription message to the target pharmacy electronically (or via fax, if the target pharmacy lacks e-prescribing capabilities). The pharmacy can also send messages for renewal request to the prescribing physician. A new feature, not yet widely adopted, allows prescribers to send a message electronically to a pharmacy to cancel a previously prescribed medication or prescription.
 
-#### Clinical Scenario — New prescription for Newly Diagnosed Diabetes
+>### 临床场景—针对新诊断出的糖尿病的新处方
 
-Mr. Martin is a 60-year-old construction supervisor. Three months ago, he was diagnosed with diabetes by Dr. Barnes, his family physician. Despite some healthy lifestyle changes, his weight is unchanged. His fingerstick blood sugars are improving, but are still too high at around 200\. His goal is 80-140.
+>马丁先生是一名60岁的施工主管。三个月前，他被他的家庭医生Dr Barnes 诊断出患有糖尿病。尽管生活方式变得健康了一些，但体重仍未变化。他的手指针刺的血糖有所改善，但始
+终过高，在200左右。他期望能达到80-140.
 
-Dr. Barnes wants Mr. Martin to take a new medication named metformin to control his blood sugar. Together they look at the EHR screen and see that metformin is on Mr. Martin’s insurance formulary, and has the lowest-tier co-pay. Both are pleased. Mr. Martin wants to start with just a 30 day prescription from his local pharmacy in case he has any side-effects. The new prescription is sent electronically to the local pharmacy.
+>Mr. Martin is a 60-year-old construction supervisor. Three months ago, he was diagnosed with diabetes by Dr. Barnes, his family physician. Despite some healthy lifestyle changes, his weight is unchanged. His fingerstick blood sugars are improving, but are still too high at around 200\. His goal is 80-140.
+
+>Dr. Barnes 医生想让马丁先生服用一种名为盐酸二甲双胍的药物来控制血压。他们一起查看了电子病历系统，发现盐酸二甲双胍在马丁先生的保险范围之内，而且
+自付率很低。双方对此都恨满意。为了避免出现副作用，马丁先生想一开始先从本地的药店拿30天的用量。下达的新处方以电子化的方式发送给当地的药店。
+
+>Dr. Barnes wants Mr. Martin to take a new medication named metformin to control his blood sugar. Together they look at the EHR screen and see that metformin is on Mr. Martin’s insurance formulary, and has the lowest-tier co-pay. Both are pleased. Mr. Martin wants to start with just a 30 day prescription from his local pharmacy in case he has any side-effects. The new prescription is sent electronically to the local pharmacy.
 
 * * *
 
-### 5.1 Searching for a New Medication
+### 5.1 查找新处方
+
+一般而言，医生在写处方时脑子里会有某种特定的药物。这种情况下，从最惯用的列表中选择或查询该药物是添加新处方的最佳路径。电子病历系统可以帮助医生做出正确的选择，帮助录入正确的信息。
+在大多数情况下，电子病历系统预先填好处方单能够省下医生的时间和脑力劳动 ([cognitive load](./human-factors.php#cognitive-load)),而且能够降低过失的风险。
+如果在医生输入的时候，电子病历系统能够从药品知识库中预先拿到检索结果，能够提高医生的速度和准确率。使用源自问题列表或诊断列表中数据的预测性算法能够进一步提高查询结果列表中的匹配项。
 
 Typically, physicians will have a particular medication in mind when they write prescriptions. In that case, choosing from a “favorites” list or searching for the drug are the quickest routes to new prescription. An EHR can help physicians make the right choices and enter the correct details. In most cases, having the EHR pre-populate the prescription forms will save physicians time and mental effort ([cognitive load](./human-factors.php#cognitive-load)), and will reduce the risk of errors. It will help the physicians’ search speed and accuracy if the EHR pre-populates the search results from the drug database as the physician types. A predictive algorithm that uses data from the Problem List or Diagnosis List is able to promote likely matches farther up the search result list.
 
-<div class="example" id="gal-5-1"><div class="ex-title"><span class="ex-type">Gallery 5.1</span><span class="ex-caption">Making Prescription Search Results Robust</span></div><div id="cbp-fwslider" class="scale-with-grid cbp-fwslider">
-*   <div><div class="caption"><span class="ex-type">5.1 a</span>Typing Causes the List to Pre-Populate<span class="capt-desc">— User favorites can jump to the top of the list.</span></div>[![Type-ahead for results, favorites moving to the top of the list](imagesexamples/eRx/search_results_1.png)](imagesexamples/eRx/search_results_1.png "Gallery 5.1 a - Typing Causes the List to Pre-Populate - User favorites can jump to the top of the list")</div>
-*   <div><div class="caption"><span class="ex-type">5.1 b</span>Typing More Characters Produces a Closer Match<span class="capt-desc">— Additional details (tablet strength “500”) may be added to the search string.</span></div>[![Additional details can narrow the search](imagesexamples/eRx/search_results_2.png)](imagesexamples/eRx/search_results_2.png "Gallery 5.1 b - Typing More Characters Produces a Closer Match - Additional details (tablet strength 500) may be added to the search string")</div>
-*   <div><div class="caption"><span class="ex-type">5.1 c</span>Allow Users to Type a Portion of the Drug Name, and Then Skip to Additional Details<span class="capt-desc">— Here the physician added the dosing frequency “bid.”</span></div>[![Type Partial drug queries](imagesexamples/eRx/search_results_3.png)](imagesexamples/eRx/search_results_3.png "Gallery 5.1 c - Allow Users to Type a Portion of the Drug Name, and Then Skip to Additional Details - Here the physician added the dosing frequency bid.")</div>
-*   <div><div class="caption"><span class="ex-type">5.1 d</span>Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered</div>[![Search the Number of Tablets](imagesexamples/eRx/search_results_4.png)](imagesexamples/eRx/search_results_4.png "Gallery 5.1 d - Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered")</div>
+Gallery 5.1 **Making Prescription Search Results Robust**
 
-</div></div><div class="credit">
+*   5.1 a **Typing Causes the List to Pre-Populate**— User favorites can jump to the top of the list.
+
+![Type-ahead for results, favorites moving to the top of the list](./assets/images/examples/eRx/search_results_1.png)
+
+*   5.1 b **Typing More Characters Produces a Closer Match**— Additional details (tablet strength “500”) may be added to the search string.
+
+![Additional details can narrow the search](./assets/images/examples/eRx/search_results_2.png)
+
+*   5.1 c **Allow Users to Type a Portion of the Drug Name, and Then Skip to Additional Details**— Here the physician added the dosing frequency “bid.”
+
+![Type Partial drug queries](./assets/images/examples/eRx/search_results_3.png)
+
+*   5.1 d **Adding the Number of Tablets Makes the Top Choice Exactly What the Doctor Ordered**
+
+![Search the Number of Tablets](./assets/images/examples/eRx/search_results_4.png)
 
 From Cerner PowerChart. © 2014 Cerner Corporation. Reproduced by permission of Cerner Corporation.
 
-</div><div class="sectionStart">
 * * *
 
-</div>
-#### 5.1.1 Prescribing a New Medication
+#### 5.1.1 下新处方
+
+一旦医生找到他想找的药品，就需要添加相应的详细信息，回顾药品的规格、使用说明、配药的数量、授权续药的次数等。考虑周全的设计会预先根据药品给这些字段赋值，
+可能是最常见的开始剂量。电子病历系统会为医生推荐一些经常使用的选项或已收藏。对于复诊病人，会推荐他们已经选过的药房。
 
 Once a physician finds the medication she's looking for, she needs to manage additional details like adding or reviewing the dosage strength, instructions, quantity to dispense, and number of refills to authorize. A thoughtful design will pre-populate fields associated with the medication with, possibly, the instructions for the usual starting dose. The EHR system could recommend a physician’s frequently-used choices or favorites. For a returning patient, it could recommend their chosen pharmacy.
+
+在美国，医疗保险计划常常包括了处方集(drug formularies),也就是医保所覆盖的处方药的集合。在处方集范围内，药品根据患者自付的比例被分为不同的等级。
+一般的医保包含4个等级：
+
+*   第一级通常包括了最便宜的常用药物
+*   第二级包括了优先选择的品牌药物
+*   第三级通常包括了非优先选择的品牌药物
+*   第四级通常包括了最昂贵的专科用药
 
 In the United States, health insurance plans often include drug formularies, which are a list of prescription drugs that will be covered by the insurance plan. Within the formulary, the drugs are grouped into a tier assignment that determines the patient’s portion of the drug cost. A typical plan includes 3 or 4 tiers:
 
@@ -50,20 +84,32 @@ In the United States, health insurance plans often include drug formularies, whi
 *   Tier 3 usually includes “non-preferred” brand name medications
 *   Tier 4 usually includes specialty medications (the most expensive)
 
+如果系统了解患者的药房福利方案，就能够显示相应的处方集信息，并在浏览过程中提示属于哪一级。同时，系统可以按用户所需显示更多详细信息。
+
 If the system knows the patient’s pharmacy benefit plan, it can display the associated formulary information, indicating the tier information at a glance. Also, the system can allow the prescriber to view more detail on demand.
+
+电子病历系统所提供的这些信息能够减少医生完成此项工作所需的脑力劳动，从而降低了认知负载。这样的电子病历系统也能够通过杜绝医生分析和减少医疗过失来提高患者安全。
 
 An EHR that provides these details reduces the mental effort a physician needs to expend to accomplish this task, and thus reduces their cognitive load. This EHR can also enhance patients' safety by eliminating physicians' distractions and reducing the margin for error.
 
-<div class="quicktip" id="considerations"><div class="sidebar cf">
-#### Prescription Details
+>#### 处方详情 Prescription Details
 
-Some of the details of the prescription will depend on a patient’s preferences<span class="elipsis">..<span class="a">Read more</span></span>
 
-<div class="qt-content show">
+>处方详情中的一部分内容取决于患者的喜好
 
-Some of the details of the prescription will depend on a patient’s preferences:
+>Some of the details of the prescription will depend on a patient’s preferences:
 
-<table class="sidebar-table" id="challenges"><thead><tr><th>Physician Considerations</th><th>Developer Challenges</th></tr></thead><tbody><tr><td>**30 or 90 day supplies?**</td><td>Patients will choose larger or smaller supplies of drugs depending on what a drug costs, how convenient it is to refill their prescription, or whether they’re new to the drug and want to try out first to determine their tolerance for it and its effectiveness.</td><td>Insurance companies typically offer 30 or 90 day supplies of medications. The EHR can calculate the amount of medication to order based on the medication's dosage requirements and the number of days' supply a physician orders. This mathematical decision support is particularly helpful for performing more complicated calculations including: weight-based pediatric dosing, calculating the amount to be dispensed for liquids, and the amount to be dispensed for inhalers (a single inhaler often, but not necessarily, comes with a 30 day supply).</td></tr><tr><td>**Which pharmacy does the patient wish to use?**</td><td>Patients may have one or several preferred pharmacies. Some people use a combination of suppliers to meet their needs: a mail-order pharmacy that offers them a good deal on a certain drug, a favorite local pharmacy, and another local pharmacy with some logistical advantage (one closer to work, home or the doctor’s office, or one with more convenient hours).</td><td>An EHR may allow at least three patient-preferred pharmacies. Allow the physician to remove a pharmacy that the patient no longer prefers, because insurance plans (in the U.S.) change almost annually, and the patient's preferred pharmacies may need to change with them.</td></tr><tr><td>**Are there dose limitations to consider?**</td><td>Patients may be taking other drugs that contain the new drug being prescribed. This is particularly common with pain relievers. People may be taking Tylenol (acetaminophen) alone, in combination with cough and cold remedies, or in prescription combination analgesics like Vicodin or Percocet.</td><td>Consider providing dose-limit calculations to help physicians avoid overdosing their patients. Add warnings to the patient that advise, for example, not to exceed the acetaminophen maximum total daily dose (4 grams/day). If the EHR flags this issue, then the physician can also call the patient’s attention to it.</td></tr><tr><td>**Are there formulary limitations to consider?**</td><td>Patient’s out-of-pocket prescription drug costs are rising at an alarming rate in the U.S. Formulary information can help physicians give patients some advance warning about what to expect at the pharmacy cash-register. That information empowers the patients and physicians, where possible, to find affordable alternatives for expensive medications before the office visit ends. If a patient first discovers the high cost of a given medication at the pharmacy, this can cause them to delay filling a prescription, and cause extra effort for the patient, pharmacy, and physician down the line.</td><td>At a minimum, show whether the drug is on-formulary. Show the tier, the amount of the co-pay (if available), and whether there are prescription quantity limits (it is common for proton-pump inhibitors like Prilosec or Nexium to have a limit of 30 tablets a month; not 60). Show if prior authorization will be required before allowing the pharmacy to dispense, and when possible include the criteria for prior authorization approval, including the contact number for obtaining prior authorization.</td></tr></tbody></table></div></div></div>
+><table class="sidebar-table" id="challenges"><thead><tr><th>医生的考虑因素</th><th>开发人员面临的挑战</th></tr></thead><tbody><tr><td>**
+30天还是90天的用量?**</td><td>根据药品的费用，重新拿药的便利程度，是否是新接触的药品，想要先试试效果和适应程度，这些都会影响患者选择更多或者更少的用量.</td><td>
+一般而言，保险公司提供30天或90天的药品用量。电子病历系统根据药品的剂量要求和医生指定的用药天数计算出要下达的药品数量。尤其是在进行更加复杂的计算时，
+此类计算型的决策支持特别有用：比如基于体重的儿科用药剂量，计算要配发的液体药物的数量，要配发的吸入器的数量(通常只是单一的吸入器，30天的用量，但也不一定，).</td></tr><tr><td>
+**患者想要选择哪家药房?**</td><td>患者可能会有1到多个喜欢的药房，一些人选择多家供应商来满足他们的需要：订单邮寄类的药房常常某种药比较便宜，最喜欢的本地药房和其他有物流优势的本地药房(一个离家、工作地点或者离诊所近，另一家则营业时间更方便)</td><td>由于保险基本上每年都会变化，电子病历系统可能至少要能够选择三家患者常用的药房，允许移除患者不再常用的药房，药房也要能够随着保险的变化而调整</td></tr><tr><td>
+**是否要考虑一些剂量的限制?**</td><td>患者正在服用的其他药物可能会包含将要下达的新药品。尤其在止疼药中颇为常见。人们可能单独服用 Tylenol (acetaminophen) ，
+也可能在处方中就使用如Vicodin or Percocet的复合镇痛药。</td><td>计算时考虑剂量限制能帮助医生避免患者服药过量，比如给患者增加acetaminophen每天最大剂量(4克/天)的
+提醒。如果电子病历系统能够标记处此类问题，医生也就能够令患者注意这些内容。</td></tr><tr><td>**要不要考虑处方表?**</td><td>
+美国患者自付的处方药成本在急剧升高。处方表能够提醒医生药房划价时会遇到的问题。这些信息最大程度上使得医生和患者能够在诊疗结束之前找到昂贵药品的能够负担的起的替代物。
+如果患者是在药房发现某种药物费用很高，这会导致他们延迟拿药，给患者、医生、药房带来额外的工作.</td><td>至少要显示该药物是否属于处方表。显示层次，自付的比例，是否存在处方数量的限制
+(对于proton-pump inhibitors like Prilosec or Nexium的药物，每月只能配30片而不是60是很常见的)。显示是否在配药之前需要授权，以及何种情况下需要预授权，以及要得到预授权的联系方式.</td></tr></tbody></table></div></div></div>
 #### 5.1.2 Review the New Prescription Order before Sending It Out
 
 The physician will need to review the final configuration of the new prescriptions. The EHR can flag missing elements. The physician may still need to make last minute modifications after verbally reviewing the prescriptions with the patient.
@@ -88,7 +134,7 @@ Mr. Martin is afraid that he’ll get a new bottle of 20 mg pills six weeks befo
 
 Discarding an old prescription and starting over can require a lot of time and mental effort, and can introduce the risk of error. Often, the physician only needs to change the strength of the tablet. An EHR that allows users to pick from a list of the strengths for a medication can save time. A physician may also need to adjust the number of tablets she has prescribed. Occasionally, the patient may choose to use a different pharmacy, or may request a two to four week prescription that they can fill locally while awaiting a mail-order 90 day supply.
 
-<div class="example" id="fig-5-1"><div class="ex-title"><span class="ex-type">Figure 5.1</span><span class="ex-caption">Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication<span class="capt-desc">— These include strength, instructions, quantity, and number of refills.</span></span></div>[![Bring up the Most Common Medication Details](imagesexamples/eRx/UM_EHR_0001_med-list-expand.png)](imagesexamples/eRx/UM_EHR_0001_med-list-expand.png "Figure 5.1 - Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication - These include strength, instructions, quantity, and number of refills.")</div>
+<div class="example" id="fig-5-1"><div class="ex-title"><span class="ex-type">Figure 5.1 **Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication**>— These include strength, instructions, quantity, and number of refills.</span>![Bring up the Most Common Medication Details](./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png)](./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png "Figure 5.1 - Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication - These include strength, instructions, quantity, and number of refills.")</div>
 #### 5.1.5 Allow Association of a Diagnosis or Chronic Problem
 
 Users often want to filter and sort medication list displays by diagnosis. Some medications are prescribed to alleviate multiple problems, and an EHR thus may need to be able to associate medications with multiple diagnoses. The 'multiple diagnosis' function also helps patients understand the roles of multi-purpose medications in their care plan. It also informs a variety of caregivers of all the reasons someone prescribed this medication. If a subsequent physician is considering changing a medication's dose or stopping it entirely, they'll need to know this information.
@@ -104,7 +150,7 @@ Some EHR vendors may tempted to use a drug’s therapeutic class instead of rely
 
 Using a therapeutic class (instead of the actual diagnosis selected for the individual patient) does not achieve the desired result. The physician and patient need to know why**this medication** has been prescribed for**this particular patient**. Knowing that a drug is a beta-blocker (the therapeutic class) is not sufficient, because a beta-blocker might be used for any of these diagnoses: hypertension, angina, coronary artery disease, atrial fibrillation, supraventricular arrhythmias, tremor, migraine, and portal hypertension. The therapeutic class will often be meaningless to the patient.
 
-</div></div></div><div class="example" id="fig-5-2"><div class="ex-title"><span class="ex-type">Figure 5.2</span><span class="ex-caption">Allow Association of One or More Diagnoses per Medication</span></div>[![Associate One or More Diagnoses per Medication](imagesexamples/eRx/UM_EHR_0002_change-priority.png)](imagesexamples/eRx/UM_EHR_0002_change-priority.png "Figure 5.2 - Allow Association of One or More Diagnoses per Medication")</div>
+</div></div></div><div class="example" id="fig-5-2"><div class="ex-title"><span class="ex-type">Figure 5.2 **Allow Association of One or More Diagnoses per Medication![Associate One or More Diagnoses per Medication](./assets/images/examples/eRx/UM_EHR_0002_change-priority.png)](./assets/images/examples/eRx/UM_EHR_0002_change-priority.png "Figure 5.2 - Allow Association of One or More Diagnoses per Medication")</div>
 #### 5.1.6 Stopping a Medication
 
 Removing a medication from the list can be easy. It could also be easy (though optional) for a user to record why a physician or patient stopped a medication. Common reasons for stopping a medication include:
@@ -118,7 +164,7 @@ Removing a medication from the list can be easy. It could also be easy (though o
 
 Medication timelines are richer and more informative when they capture why medications were stopped. Timelines that give users insight into patients' history with given medications can eliminate the need for time-consuming searching, paging through progress notes, or laboriously exploring historical medication list entries.
 
-<div class="example" id="fig-5-3"><div class="ex-title"><span class="ex-type">Figure 5.3</span><span class="ex-caption">Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar</span></div>[![Show Details Like Reason for Stopping](imagesexamples/medication-list/UM_EHR_0013_tap1.png)](imagesexamples/medication-list/UM_EHR_0013_tap1.png "Figure 5.3 - Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar")</div>
+<div class="example" id="fig-5-3"><div class="ex-title"><span class="ex-type">Figure 5.3 **Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar![Show Details Like Reason for Stopping](./assets/images/examples/medication-list/UM_EHR_0013_tap1.png)](./assets/images/examples/medication-list/UM_EHR_0013_tap1.png "Figure 5.3 - Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar")</div>
 #### 5.1.7 Renewing Medications
 
 <div class="scenario">
@@ -136,15 +182,15 @@ Patients with multiple prescriptions and prescribers are often burdened with poo
 
 Designers could allow users to easily modify existing prescriptions, preserving existing details and offering easy access to common alternative details where users might need to make changes (changing from 10 mg to 20 mg, from 1 tablet to 2 tablets, or from 30 days to 90 days, etc.).
 
-<div class="example" id="gal-5-2"><div class="ex-title"><span class="ex-type">Gallery 5.2</span><span class="ex-caption">Allow Sorting and Filtering to Efficiently Facilitate Renewals</span></div><div id="cbp-fwslider-2" class="scale-with-grid cbp-fwslider">
-*   <div><div class="caption"><span class="ex-type">5.2 a</span> Sorting the List by Renewal Due Date<span class="capt-desc">— Makes it easier to group and manage the medications due for renewal.</span></div>[![Sort by Renewal Due Date](imagesexamples/eRx/UM_EHR_0012_sort-renew.png)](imagesexamples/eRx/UM_EHR_0012_sort-renew.png "Gallery 5.2 a - Sort the List by Renewal Due Date - Makes it easier to group and manage the medications due for renewal")</div>
-*   <div><div class="caption"><span class="ex-type">5.2 b</span> Filtering the List by Prescriber<span class="capt-desc">— Makes it even easier to focus only on the selected medications, eliminating distracting items.</span></div>[![Filter by Prescriber](imagesexamples/eRx/UM_EHR_0013_filter-physician.png)](imagesexamples/eRx/UM_EHR_0013_filter-physician.png "Galery 5.2 b - Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items")</div>
+<div class="example" id="gal-5-2"><div class="ex-title"><span class="ex-type">Gallery 5.2 **Allow Sorting and Filtering to Efficiently Facilitate Renewals</span></div><div id="cbp-fwslider-2" class="scale-with-grid cbp-fwslider">
+*   <div><div class="caption"><span class="ex-type">5.2 a</span> Sorting the List by Renewal Due Date**>— Makes it easier to group and manage the medications due for renewal.![Sort by Renewal Due Date](./assets/images/examples/eRx/UM_EHR_0012_sort-renew.png)](./assets/images/examples/eRx/UM_EHR_0012_sort-renew.png "Gallery 5.2 a - Sort the List by Renewal Due Date - Makes it easier to group and manage the medications due for renewal")</div>
+*   <div><div class="caption"><span class="ex-type">5.2 b</span> Filtering the List by Prescriber**>— Makes it even easier to focus only on the selected medications, eliminating distracting items.![Filter by Prescriber](./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png)](./assets/images/examples/eRx/UM_EHR_0013_filter-physician.png "Galery 5.2 b - Filtering the List by Prescriber - Makes it even easier to focus only on the selected medications, eliminating distracting items")</div>
 
 </div></div>
 
 A bar graph data visualization ([Figure 5.4](#fig-5-4) below) displaying “renewal due dates” reduces users' cognitive load.. It allows physicians to note which items need to be managed during the current visit by doing a quick visual scan. The physicians recognize what medications they need to focus on by picking out preattentive attributes, such as color and line length, rather than by having to do complex mental calculations involving reading dates, quantities, and number of refills.
 
-<div class="example" id="fig-5-4"><div class="ex-title"><span class="ex-type">Figure 5.4</span><span class="ex-caption">Icons for “Refills Remaining”<span class="capt-desc">— Icons use preattentive attributes to reduce cognitive load during the medication renewal process</span></span></div>[![Icons for Refills Remaining](imagesexamples/eRx/RenewalDue_Icons_PCTouchCerner.png)](imagesexamples/eRx/RenewalDue_Icons_PCTouchCerner.png "Figure 5.4 - Icons for Refills Remaining - Icons use preattentive attributes to reduce cognitive load during the medication renewal process")<div class="credit">
+<div class="example" id="fig-5-4"><div class="ex-title"><span class="ex-type">Figure 5.4 **Icons for “Refills Remaining”**>— Icons use preattentive attributes to reduce cognitive load during the medication renewal process</span>![Icons for Refills Remaining](./assets/images/examples/eRx/RenewalDue_Icons_PCTouchCerner.png)](./assets/images/examples/eRx/RenewalDue_Icons_PCTouchCerner.png "Figure 5.4 - Icons for Refills Remaining - Icons use preattentive attributes to reduce cognitive load during the medication renewal process")<div class="credit">
 
 From Cerner PowerChart Touch. © 2014 Cerner Corporation. Reproduced by permission of Cerner Corporation.
 
@@ -168,7 +214,7 @@ A patient's EHR often contains unfulfilled orders. Patients forget tests, or can
 
 When users place new orders, they can simultaneously be able to see the work that's already been done, without navigating away from their own unfinished orders and losing their work.
 
-</div><div class="one-half column"><div class="example" id="fig-5-5"><div class="ex-title"><span class="ex-type">Figure 5.5</span><span class="ex-caption">Before: Interruptive Dialog Box<span class="capt-desc">— Doesn’t allow the physician to see existing prescription orders</span></span></div>[![Dialog doesn’t allow the physician to see existing orders](imagesexamples/eRx/UM_EHR_0004_new-medication-bad.png)](imagesexamples/eRx/UM_EHR_0004_new-medication-bad.png "Figure 5.5 - Before: This interruptive dialog box doesn’t allow the physician to see existing prescription orders")</div></div><div class="one-half column"><div class="example" id="fig-5-6"><div class="ex-title"><span class="ex-type">Figure 5.6</span><span class="ex-caption">After: Non-interruptive Dialog Box<span class="capt-desc">— Allows users to see existing orders using a separate panel, or by making the dialog box non-interruptive.</span></span></div>[![See Existing Orders in a separate panel, or a non-interruptive dialog box](imagesexamples/eRx/UM_EHR_0003_new-medication.png)](imagesexamples/eRx/UM_EHR_0003_new-medication.png "Figure 5.6 - After: Allow Users to See Existing Orders - This can be done in a separate panel, or by making the dialog box non-interruptive.")</div></div><div class="sixteen columns">
+</div><div class="one-half column"><div class="example" id="fig-5-5"><div class="ex-title"><span class="ex-type">Figure 5.5 **Before: Interruptive Dialog Box**>— Doesn’t allow the physician to see existing prescription orders</span>![Dialog doesn’t allow the physician to see existing orders](./assets/images/examples/eRx/UM_EHR_0004_new-medication-bad.png)](./assets/images/examples/eRx/UM_EHR_0004_new-medication-bad.png "Figure 5.5 - Before: This interruptive dialog box doesn’t allow the physician to see existing prescription orders")</div></div><div class="one-half column"><div class="example" id="fig-5-6"><div class="ex-title"><span class="ex-type">Figure 5.6 **After: Non-interruptive Dialog Box**>— Allows users to see existing orders using a separate panel, or by making the dialog box non-interruptive.</span>![See Existing Orders in a separate panel, or a non-interruptive dialog box](./assets/images/examples/eRx/UM_EHR_0003_new-medication.png)](./assets/images/examples/eRx/UM_EHR_0003_new-medication.png "Figure 5.6 - After: Allow Users to See Existing Orders - This can be done in a separate panel, or by making the dialog box non-interruptive.")</div></div><div class="sixteen columns">
 #### 5.2.2 Make It Easy to Find the Right Orders
 
 Naming orders can be a challenge, because tests and procedures can have several commonly-used names. Different organizations may use different names for the same test. The physician ordering procedures might not be familiar with precise names listed in the EHR order catalog. The EHR might formally call a chest x-ray "XR chest". A physician, however, might look for it under:
@@ -198,7 +244,7 @@ Sometimes orders demand a precise date and time. Repeating a Prothrombin Time (P
 
 Other times, less precise dates would be more helpful. If a physician orders a lab for "one year from now," but the patient shows up eleven months later, telling the patient she's too early and sending her home would be counterproductive. The EHR needs to allow its users to set somewhat flexible "fuzzy dates." This will allow healthcare organizations to be adaptable, and to work with patients to find times and dates convenient for them.
 
-</div></div></div></div><div class="one-half column"><div class="example" id="fig-5-7"><div class="ex-title"><span class="ex-type">Figure 5.7</span><span class="ex-caption">Before:<span class="capt-desc">The physician needs to expend a lot of effort to fill in the many missing details. There are many opportunities for error.</span></span></div>[![More effort is required to fill in missing details](imagesexamples/eRx/UM_EHR_0006_new-medication-unfilled.png)](imagesexamples/eRx/UM_EHR_0006_new-medication-unfilled.png "Figure 5.7 - Before: The physician needs to expend a lot of effort to fill in the many missing details. There are many opportunities for error.")</div></div><div class="one-half column"><div class="example" id="fig-5-8"><div class="ex-title"><span class="ex-type">Figure 5.8</span><span class="ex-caption">After:<span class="capt-desc"> The EHR pre-completes key fields. Less frequently needed details are displayed less prominently.</span></span></div>[![Pre-complete key fields and Display less frequently needed details less prominently](imagesexamples/eRx/UM_EHR_0005_annotated.png)](imagesexamples/eRx/UM_EHR_0005_annotated.png "Figure 5.8 - After: The EHR pre-completes key fields. Less frequently needed details are displayed less prominently.")</div></div><div class="sixteen columns">
+</div></div></div></div><div class="one-half column"><div class="example" id="fig-5-7"><div class="ex-title"><span class="ex-type">Figure 5.7 **Before:**>The physician needs to expend a lot of effort to fill in the many missing details. There are many opportunities for error.</span>![More effort is required to fill in missing details](./assets/images/examples/eRx/UM_EHR_0006_new-medication-unfilled.png)](./assets/images/examples/eRx/UM_EHR_0006_new-medication-unfilled.png "Figure 5.7 - Before: The physician needs to expend a lot of effort to fill in the many missing details. There are many opportunities for error.")</div></div><div class="one-half column"><div class="example" id="fig-5-8"><div class="ex-title"><span class="ex-type">Figure 5.8 **After:**> The EHR pre-completes key fields. Less frequently needed details are displayed less prominently.</span>![Pre-complete key fields and Display less frequently needed details less prominently](./assets/images/examples/eRx/UM_EHR_0005_annotated.png)](./assets/images/examples/eRx/UM_EHR_0005_annotated.png "Figure 5.8 - After: The EHR pre-completes key fields. Less frequently needed details are displayed less prominently.")</div></div><div class="sixteen columns">
 #### 5.2.4 Assign the Correct Diagnosis for an Order or Prescription
 
 The EHR can make the problem and diagnosis lists readily available to physicians entering orders. It could also allow users to add new diagnoses on the fly, without having to exit the ordering tool to add them.
@@ -209,7 +255,7 @@ The EHR can provide clinical decision support by suggesting probable diagnoses b
 
 An adaptable EHR can let physicians “add to the shopping cart” ([Figure 5.9](#fig-5-9)), then “continue shopping” without checking out right away. This allows the physicians and patients to make preliminary decisions, and act on them immediately, but also allows them to make adjustments as the visit unfolds.
 
-<div class="example" id="fig-5-9"><div class="ex-title"><span class="ex-type">Figure 5.9</span><span class="ex-caption">New Order Workflow<span class="capt-desc">— EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.</span></span></div>[![Build sets or collections of orders to facilitate workflow](imagesexamples/eRx/neworders.png)](imagesexamples/eRx/neworders.png "Figure 5.9 - EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.")</div>
+<div class="example" id="fig-5-9"><div class="ex-title"><span class="ex-type">Figure 5.9 **New Order Workflow**>— EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.</span>![Build sets or collections of orders to facilitate workflow](./assets/images/examples/eRx/neworders.png)](./assets/images/examples/eRx/neworders.png "Figure 5.9 - EHRs must offer users the option of building sets or collections of orders to facilitate their workflow.")</div>
 #### 5.2.6 Building Groups of Related Orders Function like Checklists
 
 EHRs must offer users the option of building sets or collections of orders to facilitate their workflow. This offers users personalized clinical decision support and frees them from having to depend on their memories or external reference materials to complete involved tasks. Well Child Visits, for example, follow predictable patterns. They involve immunizations at regular, predetermined intervals, specific counseling (anticipatory guidance), and set follow-up visits.
@@ -241,4 +287,6 @@ EHRs can:
 8.  Allow users to personalize the interface and build detail-rich collections of related orders that function like checklists.
 9.  Allow users to select specific or flexible dates for new lab orders.
 
-</div></div></section></section>
+1、insurance formulary  处方集
+2、pharmacy benefit plan 药房福利方案
+3、 combination analgesics 复合镇痛药

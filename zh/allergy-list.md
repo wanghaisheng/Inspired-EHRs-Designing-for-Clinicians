@@ -93,12 +93,12 @@ This example ([Figure 4.1](#fig-4-1)) uses some of its limited space to list sym
 
 Figure 4.1 **Before: Glancing at the List**— A design that hides key details
 
-![A design that hides key details](../images/Um_Ehr_0001_med-list-bad.png)
+![A design that hides key details](images/Um_Ehr_0001_med-list-bad.png)
 
 
 Figure 4.2 **After: Glancing at the List** — A design that brings key details to the forefront
 
-![Bring key details to the forefront of the design](../images/UM_EHR_0002_med-list-better.png)
+![Bring key details to the forefront of the design](images/UM_EHR_0002_med-list-better.png)
 
 
 在“after”的例子中，不显示症状我们就能够展示更多的药物。"5 more 5项更多内容"的标记比悬停的功能要更明显、更好用，
@@ -114,7 +114,7 @@ Including the Allergy List in the patient demographic banner, as we've chosen to
 
 Figure 4.3 **Add Prescriptions**
 
-![Add Prescriptions](../images/Um_Ehr_0003_add-orders.png)
+![Add Prescriptions](images/Um_Ehr_0003_add-orders.png)
 
 * * *
 
@@ -151,7 +151,7 @@ Glancing at the patient demographic banner ([Figure 4.4](#fig-4-4)), the physici
 
 Figure 4.4 **Patient Demographic Banner**— Shows only medication names.
 
-![Patient banner shows only medication names.](../images/UM_EHR_0013_patient-banner.png)
+![Patient banner shows only medication names.](images/UM_EHR_0013_patient-banner.png)
 
 要了解额外信息，医生需要使用如下的表格视图([Figure 4.5](#fig-4-5)).
 
@@ -159,7 +159,7 @@ To get this additional information, the physician will have to use the detailed 
 
 Figure 4.5 **Medication Allergy List**— Table view shows details.
 
-![Allergy table shows details.](../images/Um_Ehr_AllergyList_0000_allergies.png)
+![Allergy table shows details.](images/Um_Ehr_AllergyList_0000_allergies.png)
 
 有了如图([Figure 4.5](#fig-4-5)),医生或护士能够了解到他们所需要的信息。相对重要的信息位于左面，相对不重要的则在右面。表格是简单高效的，
 能够显示有限的信息，减少用户的视觉负载。更深一步的话，用户能够获取更多信息。
@@ -168,7 +168,7 @@ With this list ([Figure 4.5](#fig-4-5)), the physician or nurse can see the info
 
 Figure 4.6 **Users Can Click Rows to Either Edit Them or to See More Details**
 
-![Click Rows to Edit or See More Details](../images/Um_Ehr_0005_allergies-details.png)
+![Click Rows to Edit or See More Details](images/Um_Ehr_0005_allergies-details.png)
 
 >#### 对于医生而言，过敏列表中哪些信息是重要的 ？
 
@@ -180,7 +180,7 @@ Figure 4.6 **Users Can Click Rows to Either Edit Them or to See More Details**
 
 >Figure 4.7 **What Allergy List Details are Important to You?**
 
->![Priority of Allergy List Details](../images/chart.png)
+>![Priority of Allergy List Details](images/chart.png)
 
 >此类用户不需要知道无效过敏信息，过敏的始发日期，过敏信息来源于哪个电子病历系统。在日常使用过程中隐藏这些信息是安全的。
 
@@ -240,12 +240,12 @@ Take a look at how these two displays enable users to add allergies ([Figures 4.
 
 Figure 4.8 **Before: Adding an Allergy to a Visually Busy Dialog**
 
-![Visually busy dialog when adding an allergy](../images/Um_Ehr_AllergyList_0004_cough-search.png)
+![Visually busy dialog when adding an allergy](images/Um_Ehr_AllergyList_0004_cough-search.png)
 
 
 Figure 4.9 **After: Simplified Dialog Requires Only Key Details**— Removes less important information to a box in the lower screen.
 
-![Simplified dialog requires only key details](../images/Um_Ehr_0006_add-an-allergy_2.png)
+![Simplified dialog requires only key details](images/Um_Ehr_0006_add-an-allergy_2.png)
 
 
  “after”后一种例子看起来更加直接，但是否与前一种例子一样安全呢？让我们具体看一些设计的细节。
@@ -259,11 +259,11 @@ In the following screenshot ([Figure 4.10](#fig-4-10)), only the highlighted are
 
 Figure 4.10 **Before: Essential Data Elements Are Highlighted for Adding a Drug Allergy**
 
-![Essential data elements are highlighted](../images/Um_Ehr_AllergyList_0005_highlighted2.png)
+![Essential data elements are highlighted](images/Um_Ehr_AllergyList_0005_highlighted2.png)
 
 Figure 4.11 **After: Simple, Sequential Design for Adding a Drug Allergy**
 
-![Simple, Sequential Design for Adding a Drug Allergy](../images/Um_Ehr_0006_add-an-allergy.png)
+![Simple, Sequential Design for Adding a Drug Allergy](images/Um_Ehr_0006_add-an-allergy.png)
 
 
 我们提供的后一种例子仅包含必要的数据字段。底部的阴影部分能够让医生输入一些额外的信息。后一种设计示例诠释了[最省力原则](./human-factors.php#how-people-perceive)
@@ -291,15 +291,15 @@ Gallery 4.1 **Make It Simple to Add New Allergies**
 
 *  4.1 a  Before: First, Find the Name of the Drug or Substance
 
-![impossible to find the name of the drug or substance](../images/Um_Ehr_AllergyList_0002_visual-queries-1.png)
+![impossible to find the name of the drug or substance](images/Um_Ehr_AllergyList_0002_visual-queries-1.png)
 
 *  4.1 b Before: Next, Add the Reaction Symptoms
 
-![Adding reaction symptoms is difficult](../images/Um_Ehr_AllergyList_0003_visual-queries-2.png)
+![Adding reaction symptoms is difficult](images/Um_Ehr_AllergyList_0003_visual-queries-2.png)
 
 *  4.1 c After: Simplified Visual Path with Fewer Fields when Adding Allergies
 
-![Simplified Visual Path with Fewer Fields](../images/Um_Ehr_0007_add-allergy-visual.png)
+![Simplified Visual Path with Fewer Fields](images/Um_Ehr_0007_add-allergy-visual.png)
 
 第三种简化版的设计 (see[Gallery 4.1 c](#gal-4-1-c))最易于使用。它有明确的视觉序列，更容易导航，从而更容易完成。
 
@@ -314,11 +314,11 @@ Predictive search fields can substantially reduce the mental effort and time it 
 
 Figure 4.12 **Before: Searching Symptoms to Add a New Allergy**— The search result listing shows the primary term, "cough," far down a visually busy list.
 
-![searching symptoms results in a visually busy list](../images/Um_Ehr_AllergyList_0004_cough-search.png)
+![searching symptoms results in a visually busy list](images/Um_Ehr_AllergyList_0004_cough-search.png)
 
 Figure 4.13 **After: Searching Symptoms to Add a New Allergy**— List displays fewer results and pushes simpler, more frequently-chosen results to the top.
 
-![simpler search results pushes fewer, frequently-chosen results to the top](../images/Um_Ehr_0008_add-allergy-after.png)
+![simpler search results pushes fewer, frequently-chosen results to the top](images/Um_Ehr_0008_add-allergy-after.png)
 
 如大家所见，在前一种例子([Figure 4.12](fig-4-12))中很难找到术语“咳嗽”，“咳嗽”出现在列表中的三分之一的位置，和其他术语混淆在一起。
 

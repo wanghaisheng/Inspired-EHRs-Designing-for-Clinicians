@@ -16,19 +16,19 @@ Gallery 2.1
 
 2.1 a **简单的列表形式**— 能够帮助医生完成多种工作，比如做出治疗决策，完成电子处方。
 
-![A simple medication list](../images/SimpleList_ReduceNoise.png)
+![A simple medication list](images/SimpleList_ReduceNoise.png)
 
 2.1 b **简单的列表形式**— 也很适合患者在移动端访问。
 
-![Simple lists are also good for mobile](../images/SimpleListMobile.png)
+![Simple lists are also good for mobile](images/SimpleListMobile.png)
 
 2.1 c **交互式列表形式**— 包含了更多有关用药的详细信息，能够帮助医生完成多种工作，比如做出治疗决策，完成电子处方。
 
-![An interactive table as a medication list](../images/UM_EHR_0000_table.png)
+![An interactive table as a medication list](images/UM_EHR_0000_table.png)
 
 2.1 d **时间轴形式**— 充分利用了信息可视化的作用，能够让医生掌握随着时间推移用药情况的变化。
 
-![A medication timeline](../images/UM_EHR_0000_Annotated-Timeline.png)
+![A medication timeline](images/UM_EHR_0000_Annotated-Timeline.png)
 
 
 * * *
@@ -74,11 +74,11 @@ Look at[Figure 2.1](#fig-2-1) and[ Figure 2.2](#fig-2-2). As you can probably te
 
 Figure 2.1 **Before: An Awful Medication List**
 
-![Figure 2.1 **Before: An Awful Medication List**](../images/EHR_SimpleList_Before.png)
+![Figure 2.1 **Before: An Awful Medication List**](images/EHR_SimpleList_Before.png)
 
 Figure 2.2 **After: Simple Medication List Makeover**
 
-![Figure 2.2 **After: Simple Medication List Makeover**](../images/EHR_SimpleList_After.png)
+![Figure 2.2 **After: Simple Medication List Makeover**](images/EHR_SimpleList_After.png)
 
 
 患者也可以使用这样的列表。患者能够轻易的讲这样的列表拿给其他医师、牙医、急诊室的工作人员或其他护理人员看。需要填写每周用药提醒表单的患者可能会需要一种更加详细的列表-
@@ -151,19 +151,19 @@ Gallery 2.2 **Making Added Emphasis to Text Just Right **
 
 2.2a  **Too jarring**
 
-![](../images/too-jaring.png)
+![](images/too-jaring.png)
 
 2.2b  **Too subtle**
 
-![](../images/too-subtle.png)
+![](images/too-subtle.png)
 
 2.2c  **Invisible to color-blind users**
 
-![](../images/invisible-to-blind.png)
+![](images/invisible-to-blind.png)
 
 2.2d  **Just right**
 
-![](../images/just-right.png)
+![](images/just-right.png)
 
 另一方面，有时候，[deliberately jarring](./design-principles.php#dark-side-of-color)能够引起用户的注意。一些EHR使用**tall man lettering**
 来区分那些会引起混淆的看起来像和或听起来像的药物名称。Tall man lettering通过大写单词的某部分将其与邻近的单词区分开： hydrALAzine vs. hydrOXYzine.
@@ -182,7 +182,7 @@ On the other hand, sometimes a[deliberately jarring](./design-principles.php#dar
 
 >**How many fives do you find in each rectangle below?**
 
-![Find the fives in a grid of numbers](../images/findthe5s.png)
+![Find the fives in a grid of numbers](images/findthe5s.png)
 
 >在右图中更加容易找到5是由于我们的大脑无需意识控制就能接受加黑的字体。
 
@@ -205,11 +205,11 @@ Reduce visual noise. If a visual element doesn’t add data or improve the perce
 
 Figure 2.3    **Before: The Frame Creates Visual Noise**
 
-![A simple list as a table with thick borders](../images/SimpleList_Noisy.png)
+![A simple list as a table with thick borders](images/SimpleList_Noisy.png)
 
 Figure 2.4    **After: Cleaner, Data Takes Center Stage**
 
-![A cleaner simple list with clear information hierarchy](../images/SimpleList_ReduceNoise.png)
+![A cleaner simple list with clear information hierarchy](images/SimpleList_ReduceNoise.png)
 
 边框并没有添加信息，移除边框能够让你的数据减少视觉噪声。
 
@@ -237,7 +237,7 @@ The interactive table allows users to sort, filter, and otherwise adjust their d
 
 Interactive 2.1 Interactive Table Prototype —[Try it out!](http://inspiredehrs.org/medication-list/)
 
-![Interactive table as a medication list](../images/UM_EHR_0000_table.png)
+![Interactive table as a medication list](images/UM_EHR_0000_table.png)
 
 
 >#### 回到之前的临床场景——血压过高
@@ -277,7 +277,7 @@ Juggling these considerations can be a lot of mental work. Fortunately, you can 
 
 Figure 2.5 **The [Cognitive Load](http://inspiredehrs.org/designing-for-clinicians/human-factors.php#cognitive-load) on Physicians Adjusting Blood Pressure Medications**
 
-![Physician has to look at each medication, dose, and condition](../images/UM_EHR_0006_mental-work.png)
+![Physician has to look at each medication, dose, and condition](images/UM_EHR_0006_mental-work.png)
 
 通过使用一些精妙的设计，你可以减少医疗过失的风险(用药列表中缺失某种药物)，
 降低必要的[认知负荷cognitive load](http://inspiredehrs.org/designing-for-clinicians/human-factors.php#cognitive-load)。
@@ -331,11 +331,11 @@ Gallery 2.3 **Easing Mental Work** — How many current medications for hyperten
 
 2.3 a **Sorted by Condition**
 
-*  ![Interactive table sorted by Condition](../images/UM_EHR_0001_sort-condition.png)
+*  ![Interactive table sorted by Condition](images/UM_EHR_0001_sort-condition.png)
 
 2.3 b **Filtered by Condition**
 
-*  ![Interactive table filtered by Condition](../images/Um_Ehr_0002_condition-focus.png)
+*  ![Interactive table filtered by Condition](images/Um_Ehr_0002_condition-focus.png)
 
 通过将药品名称与药品的参考信息关联起来，实现通过点击获取**剂量范围信息**。
 药品信息数据库包括了每种适应症或诊断建议的最佳剂量范围。心率衰竭的最大剂量可能比高血压要大一些。
@@ -349,7 +349,7 @@ Make that same dose range information available at a glance by using an**icon or
 
 Figure 2.6 **Shading Displays Information about the Maximum Dose**
 
-![Shading Displays Information about the Maximum Dose](../images/UM_EHR_0009_lisinopril.png)
+![Shading Displays Information about the Maximum Dose](images/UM_EHR_0009_lisinopril.png)
 
 在任何电子病历的表格中，都可以给每种药品添加如这里所示的小图标来表示最大剂量。
 这种展示方法也能够帮助患者更好的理解他们的用药。通过这样的一些适合于医生、护士和患者的视觉设计
@@ -385,12 +385,12 @@ In the examples below ([Figure 2.7](#fig-2-7) and[ 2.8](#fig-2-8)), we refer to 
 
 Figure 2.7 **List with a Column for the "Maximum Dose" Icon**
 
-![Medication table with a row of grey and dark squares to denote whether dose is max](../images/UM_EHR_0007_dose-max.png)
+![Medication table with a row of grey and dark squares to denote whether dose is max](images/UM_EHR_0007_dose-max.png)
 
 
 Figure 2.8 **Mini-Timeline** — Shows maximum dose information for each medication
 
-![A mini timeline in the medication table can indicate dose information and start/end dates](../images/UM_EHR_0008_timeline.png)
+![A mini timeline in the medication table can indicate dose information and start/end dates](images/UM_EHR_0008_timeline.png)
 
 
 #### 尝试一下Try It Out
@@ -408,7 +408,7 @@ For this prototype, assume “today” is September 18, 2013.
 Interactive 2.2 **Interactive Table Prototype**  —[Try it out!](http://inspiredehrs.org/medication-list/)
 
 
-![Interactive Table Prototype](../images/UM_EHR_0000_table.png)
+![Interactive Table Prototype](images/UM_EHR_0000_table.png)
 
 
 #### 尝试如下的任务Try these tasks:
@@ -476,7 +476,7 @@ The overview provides context and perspective, and may enable the user to make s
 Figure 2.9 **Show All Medications (Active & Inactive)** — Lisinopril had been stopped
 —[Try it out!](http://inspiredehrs.org/timeline/)
 
-![Show All Medications and see what had been stopped](../images/UM_EHR_0007_lisinopril-stopped.png)
+![Show All Medications and see what had been stopped](images/UM_EHR_0007_lisinopril-stopped.png)
 
 
 现在Dr. Barnes医生考虑使用amlodipine来控制患者的血压，但想了解一下患者对目前正在服用的药物的依从性
@@ -488,7 +488,7 @@ Dr. Barnes now considers prescribing amlodipine to control the patient’s high 
 
 Figure 2.10 **Zoom in to See Granular Details like Gaps in Medication Adherence**
 
-![Zoom in to See Granular Details like Gaps in Medication Adherence](../images/UM_EHR_0008_zoom-in.png)
+![Zoom in to See Granular Details like Gaps in Medication Adherence](images/UM_EHR_0008_zoom-in.png)
 
 时间轴给出的是一个完整的概述。在最顶层，时间轴能够传递患者何时开始、停止服用某种药物的详细信息，药物剂量何时变更的信息、
 药物剂量的变更是增加还是减少以及服用的剂量是不是最大剂量。
@@ -516,15 +516,15 @@ Gallery 2.4 **Medication Timeline**
 
 *   2.4 a **Medication Timeline Showing Drug Dosages for "Today"**
 
-![Medication Timeline Showing Drug Dosages for Today](../images/UM_EHR_0000_Annotated-Timeline.png)
+![Medication Timeline Showing Drug Dosages for Today](images/UM_EHR_0000_Annotated-Timeline.png)
 
 *   2.4 b **How to Read the Timeline**
 
-![How to Read the Timeline](../images/UM_EHR_0010_notated.png)
+![How to Read the Timeline](images/UM_EHR_0010_notated.png)
 
 *  2.4 c **Special Cases<span class="capt-desc">— PRN (as needed) medications and medications with no fixed maximum dose**
 
-![PRN medications have no fixed maximum dose](../images/UM_EHR_0011_notated-2.png)
+![PRN medications have no fixed maximum dose](images/UM_EHR_0011_notated-2.png)
 
 我们所说明的用药时间轴其中包含了一些基于认知科学的创新的界面可用性的特征。高效的“高级概述”在单个视图中展示了
 患者完整的用药列表的时间轴。这个工具避免了医生在工作记忆中尝试并记住所有碎片化信息，或者是在多个视图间切换时为了记住细节而做笔记。
@@ -572,35 +572,35 @@ Gallery 2.5 **Medication Timeline**
 
 *   2.5 a **Instructions on How to Read the Timeline**
 
-![Instructions on how to read the timeline](../images/UM_EHR_0001_tutorial.png)
+![Instructions on how to read the timeline](images/UM_EHR_0001_tutorial.png)
 
 *   2.5 b **Active Medications in the Timeline**
 
-![Active Medications in the Timeline](../images/UM_EHR_0000_Annotated-Timeline.png)
+![Active Medications in the Timeline](images/UM_EHR_0000_Annotated-Timeline.png)
 
 *   2.5 c **Grab the Scrubber**— Drag it across the timeline to look at more details about certain dates
 
-![Drag scrubber to look at more details about certain dates](../images/UM_EHR_0002_drag.png)
+![Drag scrubber to look at more details about certain dates](images/UM_EHR_0002_drag.png)
 
 *   2.5 d **Dragging the Scrubber Further Back in Time**— Medications not yet prescribed appear as grayed out names, and the labels disappear.
 
-![Drag Scrubber Back in time. Medications not yet prescribed grayed out names and labels disappear](../images/UM_EHR_0003_drag2.png)
+![Drag Scrubber Back in time. Medications not yet prescribed grayed out names and labels disappear](images/UM_EHR_0003_drag2.png)
 
 *   2.5 e **Show All Medications**— Active medications are at the top, inactive medications are at the bottom.
 
-![Active medications are at the top, inactive medications are at the bottom](../images/UM_EHR_0004_show-all.png)
+![Active medications are at the top, inactive medications are at the bottom](images/UM_EHR_0004_show-all.png)
 
 *   2.5 f **Tap on a Medication Line to See More Details**
 
-![Tap on a Medication Line to See More Details](../images/UM_EHR_0005_hover.png)
+![Tap on a Medication Line to See More Details](images/UM_EHR_0005_hover.png)
 
 *   2.5 g **Expanding a Bar Reveals Details that Influenced a Patient’s History with a Medication**— Such as their reason for discontinuing it. Access other details (pharmacy, prescriber, etc) by linking a drug timeline to that drug in the interactive table.
 
-![Click to expand a bar](../images/UM_EHR_0013_tap1.png)
+![Click to expand a bar](images/UM_EHR_0013_tap1.png)
 
 *   2.5 h **Back to Where We Started**
 
-![Active medications in the timeline](../images/UM_EHR_0000_Annotated-Timeline.png)
+![Active medications in the timeline](images/UM_EHR_0000_Annotated-Timeline.png)
 
 浏览下面的演示视频来了解时间轴的操作。
 
@@ -629,7 +629,7 @@ For this prototype, assume "today" is September 18, 2013.
 
 Interactive 2.3 Medication Timeline Prototype[Try it out!](http://inspiredehrs.org/timeline/)
 
-![Try our medication timeline prototype](../images/UM_EHR_0000_Annotated-Timeline.png)
+![Try our medication timeline prototype](images/UM_EHR_0000_Annotated-Timeline.png)
 
 #### 尝试如下任务Try These Tasks
 
