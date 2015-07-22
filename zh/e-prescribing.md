@@ -73,7 +73,7 @@ Once a physician finds the medication she's looking for, she needs to manage add
 一般的医保包含4个等级：
 
 *   第一级通常包括了最便宜的常用药物
-*   第二级包括了优先选择的品牌药物
+*   第二级通常包括了优先选择的品牌药物
 *   第三级通常包括了非优先选择的品牌药物
 *   第四级通常包括了最昂贵的专科用药
 
@@ -110,48 +110,88 @@ An EHR that provides these details reduces the mental effort a physician needs t
 美国患者自付的处方药成本在急剧升高。处方表能够提醒医生药房划价时会遇到的问题。这些信息最大程度上使得医生和患者能够在诊疗结束之前找到昂贵药品的能够负担的起的替代物。
 如果患者是在药房发现某种药物费用很高，这会导致他们延迟拿药，给患者、医生、药房带来额外的工作.</td><td>至少要显示该药物是否属于处方表。显示层次，自付的比例，是否存在处方数量的限制
 (对于proton-pump inhibitors like Prilosec or Nexium的药物，每月只能配30片而不是60是很常见的)。显示是否在配药之前需要授权，以及何种情况下需要预授权，以及要得到预授权的联系方式.</td></tr></tbody></table></div></div></div>
-#### 5.1.2 Review the New Prescription Order before Sending It Out
+
+#### 5.1.2 处方评审/处方核实 Review the New Prescription Order before Sending It Out
+
+医师需要对要下达的新的处方进行最终的审核。电子病历系统可以对缺失的内容做出标记。在与患者进行口头核对之后，医师也可能会对处方进行一些最终的调整。
 
 The physician will need to review the final configuration of the new prescriptions. The EHR can flag missing elements. The physician may still need to make last minute modifications after verbally reviewing the prescriptions with the patient.
 
+需要逐渐减少剂量的服药说明用词要明确，要能够设置成预置的文本。如下是毒葛/橡木/漆树中毒之后服用10mg每片的强的松的剂量逐渐减少的服药说明的一个例子："先连续三天每天服用一次，
+每次四片，然后连续服用3天每天服用一次，每次三片，然后连续服用3天每天服用一次，每次两片，最后连续三天每天服用一次，每次一片"。如果有转换(可能在某种药物服用之前或之后的若干天
+另一种药物)的说明，医生可以添加上此类内容。
+
 Instructions for tapering doses need to be clearly worded and can be available as preconfigured text. Here is an example of instructions for tapering doses of prednisone 10 mg tablets for poison ivy/oak/sumac: “4 tablets once daily for 3 days, then 3 tablets once daily for 3 days, then 2 tablets daily for 3 days, then 1 tablet daily for 3 days, then stop.” If there are transition instructions (stopping another medication a few days before or after starting the new one), the physician can add these.
+
+电子病历可以在医生下达医嘱之前主动地显示药物提醒。在最终的医嘱提交之前显示打断性的提醒。
 
 The EHR can display drug alerts passively before the physician gives the final order. Interruptive alerts appear before the final order is submitted.
 
-#### 5.1.3 Changing the dose
+#### 5.1.3 剂量的变更 Changing the dose
+
+大部分药物剂量都存在一个范围，因此修改剂量是个很常见的动作。可以只是简单的将当前剂量变成新的剂量，也可以复杂如在一段时间内逐步加量至使用不同大小的片剂。有时候会涉及到片剂的分割(如果是
+    安全的话)，通过多种，或者在一天内使用不同的剂量(早上2片，中午一片，晚上两片)来达到一个更加理想的治疗效果或减少不良反应。使用电子病历系统医生可以将处方的规格互相转换。系统能够保留医嘱的详细信息，如数量、续药次数、药房信息和相关诊断信息。
+
 
 Most medications have a range of possible doses, so modifying a dose is a very common prescriber activity. It can be as simple as switching from the current dose to a new dose, or as complicated as titrating upward using different tablet sizes over an extended period of time. Sometimes the change will involve splitting tablets (if it’s safe to do), using multiple tablets of the prior dose, or spreading the dose out through the day (2 in the morning, 1 at lunch, 2 at bedtime) to achieve a more even therapeutic effect or to reduce an adverse effect. The physician can convert from one prescription strength to another using the EHR. The system can preserve the order details, such as quantity, number of refills, pharmacy, and associated diagnoses.
 
-<div class="scenario">
-#### Clinical Scenario — Increasing the Dose
+
+#### 临床场景——增加剂量 Clinical Scenario — Increasing the Dose
+
+若干年后，马丁先生的糖尿病得到了很好的控制，但他又患上了高血压。三个月前，他开始每天服用10mg的lisinopril来治疗高血压(该药也能保护糖尿病患者的肾脏)。
+今天他的血压是153/96，有点偏高(他在家测量的血压值也是一样高)。马丁先生觉得能够适应目前药物的剂量，于是医生决定增加剂量到每天20mg。由于上个礼拜马丁先生刚刚收到够吃90天的药物，于是他就问是否可以每天吃2片10mg的片剂直到把这
+些药先用完。
 
 A few years later, Mr. Martin’s diabetes is well controlled, but he has developed high blood pressure (BP). Three months ago, he started on lisinopril 10 mg daily for his high blood pressure (it also protects the kidneys in people with diabetes). Today his BP is at 153/96, which is still just a little high (the readings of his BP he's taken at home are likewise high). Mr. Martin is tolerating the medication well, so his physician wants to increase the dose to 20 mg daily. Mr. Martin has just received a 90 day supply in the mail last week, so he asks if he may use up his current supply of 10 mg tablets by taking 2 tablets daily for a while.
 
+马丁先生担心自己会拿到一瓶能够吃六个礼拜的20mg药，他询问医生如何能够避免这种情况的发生。他可以拿着打印好的处方以后再拿药么？电子病历系统能否发送一条消息告诉药师不要配药，直到患
+者主动联系药师配药？还是说马丁先生以后再来拿这个新的处方？(要注意的是：由于会浪费医生的时间，医生倾向于避免以后再来)
+
+
 Mr. Martin is afraid that he’ll get a new bottle of 20 mg pills six weeks before he really needs them. He asks his doctor how he can avoid that. Can he take a printed prescription to submit later? Can the EHR send a message to the pharmacist instructing her not to fill the prescription until the patient makes contact to request that it be filled? Can Mr. Martin just call later for the new prescription? (Note: His physician’s office prefers to avoid the later calls, because it would be an inefficient use of office staff and physician time.)
 
-</div>
-#### 5.1.4 Changing the Current Order to a New Order
+#### 5.1.4 当前处方变更为新处方 Changing the Current Order to a New Order
+
+停用旧的处方，启用新的处方需要大量的时间和精力，也会引入医疗过失的风险。通常，医师只需要改变药片的规格。电子病历系统能够让用户从某种药物的不同规格中进行选择来节省时间。
+医生也可能需要调整已下达处方中药物的数量。患者偶尔会选择另一个药房，或者要求在等待邮寄的90天的药物拿到之前在本地先配2-4个礼拜的药物。
 
 Discarding an old prescription and starting over can require a lot of time and mental effort, and can introduce the risk of error. Often, the physician only needs to change the strength of the tablet. An EHR that allows users to pick from a list of the strengths for a medication can save time. A physician may also need to adjust the number of tablets she has prescribed. Occasionally, the patient may choose to use a different pharmacy, or may request a two to four week prescription that they can fill locally while awaiting a mail-order 90 day supply.
 
-<div class="example" id="fig-5-1"><div class="ex-title"><span class="ex-type">Figure 5.1 **Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication**>— These include strength, instructions, quantity, and number of refills.</span>![Bring up the Most Common Medication Details](./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png)](./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png "Figure 5.1 - Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication - These include strength, instructions, quantity, and number of refills.")</div>
-#### 5.1.5 Allow Association of a Diagnosis or Chronic Problem
+Figure 5.1 **Allow Physicians to Modify the Display Quickly by Offering the Most Common Detail Choices for a Particular Medication**>— These include strength, instructions, quantity, and number of refills.</span>![Bring up the Most Common Medication Details](./assets/images/examples/eRx/UM_EHR_0001_med-list-expand.png)
+
+#### 5.1.5 与诊断或慢病关联 Allow Association of a Diagnosis or Chronic Problem
+
+用户常常想要根据诊断对用药列表进行过滤和排序。某些药物能够缓解多种病症，电子病历系统要能够把处方关联到多个诊断上。多个诊断的功能也能够帮助患者理解治疗方案中多种药物的用途。
+同时也能够告诉其他医务人员给该患者使用这种药物的原因。如果后来的医生需要更改药物的剂量或者停用这种药物，就需要了解此类信息。
 
 Users often want to filter and sort medication list displays by diagnosis. Some medications are prescribed to alleviate multiple problems, and an EHR thus may need to be able to associate medications with multiple diagnoses. The 'multiple diagnosis' function also helps patients understand the roles of multi-purpose medications in their care plan. It also informs a variety of caregivers of all the reasons someone prescribed this medication. If a subsequent physician is considering changing a medication's dose or stopping it entirely, they'll need to know this information.
 
-<div class="quicktip" id="therapeutic-class"><div class="sidebar cf">
-#### Why Automatically Assigning a Therapeutic Class Won’t Work
+#### 自动分配治疗类型不可行的原因 Why Automatically Assigning a Therapeutic Class Won’t Work
 
-Some EHR vendors may be tempted to use a drug’s therapeutic class instead of relying on physician-assigned diagnoses.<span class="elipsis">..<span class="a">Read more</span></span>
-
-<div class="qt-content show">
+一些电子病历系统软件厂商可能会使用药物治疗类型而非依赖医生所给的诊断。他们可能担心医生不愿意给药物指定诊断，如果对于医生而言没有回报可能是这样的。但是，如果医生能够得到好处
+(用药列表的过滤和排序功能更强大，数据所带来的更好的决策支持，患者能够更好的理解用药的原因)，那么医生就有了分配诊断的动力。
 
 Some EHR vendors may tempted to use a drug’s therapeutic class instead of relying on physician-assigned diagnoses. They may be concerned that physicians won’t be willing to assign diagnoses to medications, which may be true if there is no return on the time investment for the physician. However, if the physicians receive a benefit (better sorting and filtering of medication lists, better clinical decision support fueled by that data, and better patient awareness of the reason for the medication) then physicians have an incentive to make the diagnosis assignment.
 
+使用治疗类型(而非针对某个患者实际的诊断)是不能够达到想要的目的的。医生和患者需要了解为**这个患者** **开** 这种药物的原因.只是了解药物是beta-blocker 是不够的，
+ beta-blocker 可以用在任意的诊断中：高血压、心绞痛、冠心病、房颤、心律失常、震颤、偏头痛和门静脉高压。对于患者而言，治疗类型是没有意义的。
+
 Using a therapeutic class (instead of the actual diagnosis selected for the individual patient) does not achieve the desired result. The physician and patient need to know why**this medication** has been prescribed for**this particular patient**. Knowing that a drug is a beta-blocker (the therapeutic class) is not sufficient, because a beta-blocker might be used for any of these diagnoses: hypertension, angina, coronary artery disease, atrial fibrillation, supraventricular arrhythmias, tremor, migraine, and portal hypertension. The therapeutic class will often be meaningless to the patient.
 
-</div></div></div><div class="example" id="fig-5-2"><div class="ex-title"><span class="ex-type">Figure 5.2 **Allow Association of One or More Diagnoses per Medication![Associate One or More Diagnoses per Medication](./assets/images/examples/eRx/UM_EHR_0002_change-priority.png)](./assets/images/examples/eRx/UM_EHR_0002_change-priority.png "Figure 5.2 - Allow Association of One or More Diagnoses per Medication")</div>
-#### 5.1.6 Stopping a Medication
+
+Figure 5.2 **Allow Association of One or More Diagnoses per Medication**
+![Associate One or More Diagnoses per Medication](./assets/images/examples/eRx/UM_EHR_0002_change-priority.png)
+
+#### 5.1.6 停用某种药物 Stopping a Medication
+
+从用药列表中移除/拿掉某种药物是很简单的。同样的，让用户记录医生或患者停用某种药物的原因也是很简单的。常见的原因有：
+
+1.  药物成本太高,可能是医保目录不包括，自付比例高，完全自费
+2.  药物没有效果
+3.  药物的副作用
+4.  药物的副作用超过了好处
+5.  患者无法了解药物可能的好处
+6.  患者或医生不相信这种药物
 
 Removing a medication from the list can be easy. It could also be easy (though optional) for a user to record why a physician or patient stopped a medication. Common reasons for stopping a medication include:
 
@@ -162,19 +202,22 @@ Removing a medication from the list can be easy. It could also be easy (though o
 5.  Patients don't understand the medication's possible benefits
 6.  Patients or physicians don't trust whoever prescribed the medication
 
+如果能够采集停药原因的话，用药的时间轴会更加丰富。时间轴能够让用户洞察患者的某种药物的用药历史情况，避免在病程记录中耗费时间搜索、查找，或者费力地整理既往的用药列表记录。
+
 Medication timelines are richer and more informative when they capture why medications were stopped. Timelines that give users insight into patients' history with given medications can eliminate the need for time-consuming searching, paging through progress notes, or laboriously exploring historical medication list entries.
 
-<div class="example" id="fig-5-3"><div class="ex-title"><span class="ex-type">Figure 5.3 **Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar![Show Details Like Reason for Stopping](./assets/images/examples/medication-list/UM_EHR_0013_tap1.png)](./assets/images/examples/medication-list/UM_EHR_0013_tap1.png "Figure 5.3 - Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Bar")</div>
-#### 5.1.7 Renewing Medications
+Figure 5.3 **Medication Timeline Shows Details Like “Reason for Stopping” When User Selects a Timeline Barg**
+![Show Details Like Reason for Stopping](./assets/images/examples/medication-list/UM_EHR_0013_tap1.png)
 
-<div class="scenario">
-#### Clinical Scenario — Renewing Medications Due before the Next Appointment
 
-Mr. Martin has been seeing his family physician every three to six months, but his medications often come due for annual renewal before his upcoming appointments. Because of this disparity, Mr. Martin sometimes doesn't get his refills in time, and has to go without some of his medications for several days. Mr. Martin's refills also come in at different times throughout the month, and so he has to make several trips to the pharmacy to pick up his various prescriptions. Mr. Martin wishes his 'medication procurement' schedule could be simplified and consolidated, so that he only had to make one trip.
+#### 5.1.7 重新拿药 Renewing Medications
 
-Mr. Martin's physician also finds the situation frustrating. If the patient came in before the renewals came due, the physician could determine whether the medication was effective, and whether the dose was right before signing off on the next round of pills. The physician feels the out-of-sync schedule they've established is a time-wasting hassle, inefficient, unsafe, inaccurate, inconvenient and pointless.
+>#### 临床场景——在下次预约之前重新拿药 Clinical Scenario — Renewing Medications Due before the Next Appointment
 
-</div>
+>Mr. Martin has been seeing his family physician every three to six months, but his medications often come due for annual renewal before his upcoming appointments. Because of this disparity, Mr. Martin sometimes doesn't get his refills in time, and has to go without some of his medications for several days. Mr. Martin's refills also come in at different times throughout the month, and so he has to make several trips to the pharmacy to pick up his various prescriptions. Mr. Martin wishes his 'medication procurement' schedule could be simplified and consolidated, so that he only had to make one trip.
+
+>Mr. Martin's physician also finds the situation frustrating. If the patient came in before the renewals came due, the physician could determine whether the medication was effective, and whether the dose was right before signing off on the next round of pills. The physician feels the out-of-sync schedule they've established is a time-wasting hassle, inefficient, unsafe, inaccurate, inconvenient and pointless.
+
 
 An EHR can allow a physician to renew multiple medications at the same time. This saves time and reduces the margin for error. Designing an EHR that can sort and filter the medication list by “renewal due date,” “pharmacy” and “prescribing physician” will minimize physicians' cognitive load and allow them to provide better patient-centered service.
 
@@ -290,3 +333,5 @@ EHRs can:
 1、insurance formulary  处方集
 2、pharmacy benefit plan 药房福利方案
 3、 combination analgesics 复合镇痛药
+4、 Review the New Prescription Order   可作处方核实、处方审核解
+5、drug’s therapeutic class
